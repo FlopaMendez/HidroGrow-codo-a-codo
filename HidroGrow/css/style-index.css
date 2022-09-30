@@ -1,0 +1,80 @@
+
+
+/*Selector universal */
+*{
+
+} 
+
+/*Selectores de tipo */
+header{}
+
+main{}
+
+footer{}
+
+/*Selectores de tipo agrupados */
+
+header div{}
+
+header nav{}
+
+/*Selectores de id */
+#hola{}
+
+#como-funciona{}
+
+#beneficios{}
+
+#especificaciones{}
+
+
+/*Selectores de clase y de clase agrupadosa */
+.carrusel{
+    width: 90%;
+    max-width: 120em;
+    padding: 1em;
+    border: 1px grey dotted; /*Solo para ver la estructura*/
+    
+}
+.carrusel .grande{
+    width: 200%; /* Va del doble para poder desplazarse*/
+    background-color: lightgreen ; /*Solo para ver la estructura*/
+    padding: 3px;
+
+    display: flex; 
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+
+}
+.carrusel .img{
+    width: calc(100%/2) ; /* 100% dividido q. de img*/ 
+    min-height: 10vh;
+    background-color:rgb(205, 220, 253);
+    padding: 2em;
+}
+.carrusel .puntos{
+    width: 100%;
+    background-color: rgb(250, 239, 225);
+    padding: .5em;
+    margin: .5em;
+
+    display: flex; /*Para alinear los dos puntos*/
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel .punto{
+    width: 1em;
+    height: 1em;
+    background-color:lightpink;
+    margin: .5em ;
+}
+
+.carrusel .punto.activo{
+    background-color: blue;
+}
