@@ -21,7 +21,12 @@ header nav{}
 /*Selectores de id */
 #hola{}
 
-#como-funciona{}
+#como-funciona{
+   background-color: rgb(0, 37, 243); 
+   color: white;
+   /* font-family: ; */
+   
+}
 
 #beneficios{}
 
@@ -30,15 +35,16 @@ header nav{}
 
 /*Selectores de clase y de clase agrupadosa */
 .carrusel{
+    
     width: 90%;
     max-width: 120em;
     padding: 1em;
-    border: 1px grey dotted; /*Solo para ver la estructura*/
+    border: 2px grey solid; /*Solo para ver la estructura*/
     
 }
 .carrusel .grande{
     width: 200%; /* Va del doble para poder desplazarse*/
-    background-color: lightgreen ; /*Solo para ver la estructura*/
+    margin: 5px solid black;
     padding: 3px;
 
     display: flex; 
@@ -53,8 +59,8 @@ header nav{}
 .carrusel .img{
     width: calc(100%/2) ; /* 100% dividido q. de img*/ 
     min-height: 10vh;
-    background-color:rgb(205, 220, 253);
     padding: 2em;
+    
 }
 .carrusel .puntos{
     width: 100%;
