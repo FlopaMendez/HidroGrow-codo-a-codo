@@ -84,3 +84,10 @@ header nav{}
 .carrusel .punto.activo{
     background-color: blue;
 }
+
+table {
+    width: 100%;
+  }
+td {
+    text-align: center;
+  }
