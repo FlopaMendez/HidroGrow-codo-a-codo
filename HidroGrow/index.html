@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <title>HidroGrow</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="statics/favicon.ico" type="image/x-icon"> <!-- favicon -->
     <link rel="stylesheet" href="css/style-index.css">
     
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>HidroGrow</title>
     <!--Hoja de estilo-->
     <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/364c36f988.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +28,7 @@
             <!--Logo-->
             <img src="#" alt="">
         </div>
-
+        <div>
         <nav>
             <!--NavBar-->
 
@@ -32,14 +39,12 @@
                 <li><a href="#beneficios">BENEFICIOS</a></li>
                 <li><a href="#especificaciones">ESPECIFICACIONES</a></li>
                 <li><a href="comprar.html" target="_blank">COMPRAR</a></li>
-            </ul>
 
-            <div>
                 <!--Links Iniciar Sesion/registrarse-->
-                <a href="sign-in.html" target="_self">INICIAR SESION</a>
-            </div>
-
+                <li><a href="sign-in.html" target="_self">INICIAR SESION</a></li>
+            </ul>
         </nav>
+    </div>
         <!-- Con Djando se puede hacer herencia de plantillas para no tener que repetir codigos en las paginas de comprar y sign-up/sign-in (del menu y del footer). No se si se puede sin Djando. Tb se puede hacer un if else para por ejemplo boton de Iniciar Sesion por Cerrar sesion -->
     </header>
 
@@ -84,18 +89,18 @@
         </section>
 
         <section id="como-funciona">
-            <h1>Como funciona</h1>
-            <table  >
+            <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i> <h1>¿Cómo funciona el dispositivo de cultivo doméstico HidroGrow?</h1>
+            </div>
+            <div>
+            <table>
                 <tr>
                     <td>
                         <div class="cards">
                             <!--Carta 1-->
                             <img src="statics/como-funciona-1.png" alt="Imagen 1" class="img">
                             <!--Imagen1 circular-->
-                            <h4>Enchufá y cultivá</h4>
-                            <p>
-                            Elegí tus semillas o clones favoritos y empezá tu cultivo.
-                            </p>
+                            <p>Plantar una semilla o un clon</p>
                         </div>
                     </td>
                 <td>
@@ -103,10 +108,7 @@
                         <!--Carta 2-->
                         <img src="statics/como-funciona-2.png" alt="Imagen 2" class="img">
                         <!--Imagen2 circular-->
-                        <h4>Seguí tu cultivo online</h4>
-                        <p>
-                        Texto2
-                        </p>
+                        <p>Emparejar y monitorear a través de la aplicación</p>
                     </div>
                 </td>
                 <td>
@@ -114,14 +116,58 @@
                         <!--Carta 3-->
                         <img src="statics/como-funciona-3.png" alt="Imagen 3" class="img">
                         <!--Imagen3 circular-->
-                        <h4>Saludable y fácil</h4>
-                        <p>
-                        Disfrutá de tus alimentos cultivados con hidropónia en tu propio hogar.
-                        </p>
+                        <p>Disfrutá lo cultivado</p>
                     </div>
                 </td>
             </tr>
         </table>
+        </div>
+    
+        <div style="background-color: #FFFFFF; color: #000000;">
+        <table>
+            <tr>
+                <td>
+                    <div class="cards">
+                        <!--Carta 1-->
+                        <img src="statics/como-funciona-4.png" alt="Imagen 1" class="img">
+                        <!--Imagen1 circular-->
+                        <h4>Crecimiento automático</h4>
+                        <p>
+                        Caja de cultivo autónoma sin necesidad de conocimientos ni experiencia previa.
+                        Piense en HidroGrow como el primer automóvil sin conductor para el cultivo
+                        hidropónico.
+
+                        </p>
+                    </div>
+                </td>
+            <td>
+                <div class="cards">
+                    <!--Carta 2-->
+                    <img src="statics/como-funciona-5.png" alt="Imagen 2" class="img">
+                    <!--Imagen2 circular-->
+                    <h4>Rendimiento máximo</h4>
+                    <p>
+                    Diseñado para simular las condiciones naturales ideales de su planta específica,
+                    HidroGrow ofrece agricultura de precisión para obtener rendimientos dignos de 
+                    presumir utilizando un espacio mínimo.
+                    </p>
+                </div>
+            </td>
+            <td>
+                <div class="cards">
+                    <!--Carta 3-->
+                    <img src="statics/como-funciona-6.png" alt="Imagen 3" class="img">
+                    <!--Imagen3 circular-->
+                    <h4>Sistema de iluminación</h4>
+                    <p>
+                    El sistema de iluminación se ajusta automáticamente según la etapa de 
+                    crecimiento de su planta.
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </div>
         </section>
 
         <section id="cultivos">

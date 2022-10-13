@@ -2,7 +2,7 @@
 
 /*Selector universal */
 *{
-
+font-family: 'Open Sans', 'Roboto', sans-serif;
 } 
 
 /*Selectores de tipo */
@@ -18,6 +18,11 @@ header div{}
 
 header nav{}
 
+li{
+display: inline;
+font-weight: bold;
+}
+
 /*Selectores de id */
 #hola{}
 
@@ -31,6 +36,7 @@ header nav{}
 #beneficios{}
 
 #especificaciones{}
+
 
 
 /*Selectores de clase y de clase agrupadosa */
