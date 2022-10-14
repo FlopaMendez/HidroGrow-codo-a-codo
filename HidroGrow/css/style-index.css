@@ -1,99 +1,158 @@
-
-
 /*Selector universal */
-*{
-font-family: 'Open Sans', 'Roboto', sans-serif;
-} 
+* {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
 
 /*Selectores de tipo */
-header{}
+header {}
 
-main{}
+main {}
 
-footer{}
+footer {}
 
 /*Selectores de tipo agrupados */
 
-header div{}
+header div {}
 
-header nav{}
+header nav {}
 
-li{
-display: inline;
-font-weight: bold;
+li {
+    display: inline;
+    list-style-type: none;
+    font-weight: bold;
 }
 
 /*Selectores de id */
-#hola{}
+#hola {}
 
-#como-funciona{
-   background-color: rgb(0, 37, 243); 
-   color: white;
-   /* font-family: ; */
-   
+#como-funciona {
+    background-color: rgb(0, 37, 243);
+    color: white;
+    /* font-family: ; */
+
 }
 
-#beneficios{}
+#beneficios {}
 
-#especificaciones{}
+#especificaciones {}
 
 
 
-/*Selectores de clase y de clase agrupadosa */
-.carrusel{
-    
+/*Selectores de clase y de clase agrupadosa del carrusel*/
+
+.carrusel {
     width: 90%;
     max-width: 120em;
-    padding: 1em;
-    border: 2px grey solid; /*Solo para ver la estructura*/
-    
-}
-.carrusel .grande{
-    width: 200%; /* Va del doble para poder desplazarse*/
-    margin: 5px solid black;
-    padding: 3px;
+    /* background-color: beige; */
+    padding: 2em;
 
-    display: flex; 
-    flex-flow:row nowrap;
+    transition: all 0.4s ease;
+
+}
+
+.carrusel .grande {
+    width: 200%;
+    /* background-color: rgb(176, 174, 174); */
+    padding: 2em;
+
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-
-    transition: all .5s ease;
+    
+    transition: all 0.5s ease;
     transform: translateX(0%);
 
 }
-.carrusel .img{
-    width: calc(100%/2) ; /* 100% dividido q. de img*/ 
-    min-height: 10vh;
-    padding: 2em;
-    
-}
-.carrusel .puntos{
-    width: 100%;
-    background-color: rgb(250, 239, 225);
-    padding: .5em;
-    margin: .5em;
 
-    display: flex; /*Para alinear los dos puntos*/
-    flex-flow:row nowrap;
+.carrusel .articulos {
+    width: calc(100%/2 - 2em);
+    /* background-color: aquamarine;
+    border: 2px solid rgb(47, 116, 255); */
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 20% 10%;
+    justify-content:left;
+    
+
+    transition: all 0.4s ease;
+   
+}
+
+.articulos .grid-item{
+    /* border: 1px dashed black; */
+    margin: 0;
+    padding: 10px;
+    
+
+}
+
+.titulo .parrafo .link{
+    grid-column: 1/2;
+    
+        
+}
+
+.imagen{
+   grid-column: 2/3;
+   grid-row: 1/4;
+
+
+}
+
+.link{
+    text-align: center;
+    background-color: rgb(0, 37, 243);
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 40%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 5vh;
+    color: rgb(53, 161, 57);
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.carrusel .puntos {
+    width: 100%;
+    padding: .5em;
+    margin: 1em 0 0;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 
-.carrusel .punto{
+.carrusel .punto {
     width: 1em;
     height: 1em;
-    background-color:lightpink;
-    margin: .5em ;
+    background-color:white;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    margin: .5em .8em;
+    border-radius: 50%;
+    transition: all 0.4s ease;
 }
 
+
 .carrusel .punto.activo{
-    background-color: blue;
+    background-color: rgb(0, 37, 243);
 }
+/* ------------- */
+
 
 table {
     width: 100%;
-  }
+}
+
 td {
     text-align: center;
-  }
+}
+
+

@@ -16,8 +16,8 @@
 
     <title>HidroGrow</title>
     <!--Hoja de estilo-->
-    <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/364c36f988.js" crossorigin="anonymous"></script>
+    <script defer src="js/index.js" ></script>
 </head>
 
 <body>
@@ -55,25 +55,30 @@
             <div class="carrusel">
                 <div class="grande">
                     <!-- imagen grande con las dos imagenes chicas consecutivas que se desplazan en el carrusel -->
-                    <article>
-                        <h1>
+                    <article class="articulos">
+                        
+                        <h1 class="grid-item titulo">
                             Cultivá en tu hogar.
                         </h1>
-                        <p>
+                    
+                        <p class="grid-item parrafo">
                             Realizá un seguimiento personalizado de tus cultivos hidropónicos 100% online.
                         </p>
-                        <a href="comprar.html" target="_blank">COMPRAR</a>
-                        <img src="statics/foto-producto-inicio.png" alt="Imagen 1" class="img">
+                    
+                        <a class="grid-item link" href="comprar.html" target="_blank">COMPRAR</a>
+                    
+                        <img class="grid-item imagen" src="statics/foto-producto-inicio.png" alt="Imagen 1" class="img">
+                        <!-- <img src="#" alt="Imagen 1" class="img"> -->
                     </article>
 
-                    <article>
-                        <h1>
+                    <article class="articulos">
+                        <h1 class="grid-item">
                             Título 2 para segunda imagen carrusel.
                         </h1>
-                        <p>
+                        <p class="grid-item">
                             Texto 2
                         </p>
-                        <img src="#" alt="Imagen 2" class="img">
+                        <img class="grid-item" src="#" alt="Imagen 2" class="img">
                     </article>
 
                 </div>
