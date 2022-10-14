@@ -4,30 +4,68 @@
 }
 
 /*Selectores de tipo */
-header {}
 
 main {}
 
 footer {}
 
-/*Selectores de tipo agrupados */
+header{
+    display: grid;
+    grid-template-columns: 5% 80%;
+    justify-content: space-between;
+}
 
-header div {}
 
-header nav {}
+/*  selectores de clase y de ID del header */
+
+.navBar {
+    margin:2px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+}
+
+.links{
+    font-size:large;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 1vw;
+    color: black;
+    transition: all .3s ease;
+}
+
+.links:hover{
+    background-color: rgb(53, 161, 57);
+    color:white;
+    border-radius: 15px;
+}
+
+#comprar{
+    display: inline-block;
+    width: 100px;
+
+}
+
+.sign-in{
+    padding-left: 30px;
+}
 
 li {
     display: inline;
     list-style-type: none;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
-/*Selectores de id */
+
+
+/*Selectores de id de secciones*/
+
 #hola {}
 
 #como-funciona {
     background-color: rgb(0, 37, 243);
     color: white;
+    padding: 5vh;
     /* font-family: ; */
 
 }
@@ -43,7 +81,6 @@ li {
 .carrusel {
     width: 90%;
     max-width: 120em;
-    /* background-color: beige; */
     padding: 2em;
 
     transition: all 0.4s ease;
@@ -52,7 +89,6 @@ li {
 
 .carrusel .grande {
     width: 200%;
-    /* background-color: rgb(176, 174, 174); */
     padding: 2em;
 
     display: flex;
@@ -67,47 +103,40 @@ li {
 
 .carrusel .articulos {
     width: calc(100%/2 - 2em);
-    /* background-color: aquamarine;
-    border: 2px solid rgb(47, 116, 255); */
     
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 70% 20% 10%;
     justify-content:left;
     
-
     transition: all 0.4s ease;
    
 }
 
 .articulos .grid-item{
-    /* border: 1px dashed black; */
     margin: 0;
     padding: 10px;
-    
-
 }
 
-.titulo .parrafo .link{
+.titulo, .parrafo, .comprar{
     grid-column: 1/2;
-    
-        
+   
 }
 
 .imagen{
    grid-column: 2/3;
    grid-row: 1/4;
-
-
 }
 
-.link{
+.comprar{
+    font-size:large;
+    display: inline-block;
     text-align: center;
     background-color: rgb(0, 37, 243);
     color: white;
     font-weight: bold;
     display: block;
-    width: 40%;
+    width: 50%;
     border-radius: 30px;
     text-decoration: none;
 }
@@ -117,7 +146,6 @@ li {
     color: rgb(53, 161, 57);
     display: flex;
     align-items: flex-end;
-
 }
 
 .carrusel .puntos {
@@ -144,6 +172,8 @@ li {
 .carrusel .punto.activo{
     background-color: rgb(0, 37, 243);
 }
+
+
 /* ------------- */
 
 
