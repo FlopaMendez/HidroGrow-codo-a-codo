@@ -9,52 +9,75 @@ main {}
 
 footer {}
 
-header{
-    display: grid;
-    grid-template-columns: 5% 80%;
-    justify-content: space-between;
-}
 
-
-/*  selectores de clase y de ID del header */
-
-.navBar {
-    margin:2px 0;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
-}
-
-.links{
-    font-size:large;
-    display: inline-block;
-    text-decoration: none;
-    padding: 0 1vw;
-    color: black;
-    transition: all .3s ease;
-}
-
-.links:hover{
-    background-color: rgb(53, 161, 57);
-    color:white;
-    border-radius: 15px;
-}
-
-#comprar{
-    display: inline-block;
-    width: 100px;
-
-}
-
-.sign-in{
-    padding-left: 30px;
-}
 
 li {
-    display: inline;
+    /* display: inline; */
     list-style-type: none;
     font-weight: bold;  
 }
+
+/*  selectores de clase y de ID del header */
+
+
+.encabezado{
+    padding: 0 20px;
+    margin: 1vw;
+    height: 8vh;
+    width: 95%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+}
+
+.navBar {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.botones{
+    height: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link:hover{
+    background-color: rgb(53, 161, 57);
+    color:white;
+    border-radius: 15px
+}
+
+.link{
+    color: black;
+    padding: 5px 20px;
+}
+
+.linea{
+    padding-left: 20px ;
+}
+
+.comprar{  
+    background-color: rgb(0, 37, 243);
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.botones .link, .comprar, .linea{
+    text-decoration: none;
+    font-size:x-small;
+}
+
 
 
 
@@ -128,7 +151,7 @@ li {
    grid-row: 1/4;
 }
 
-.comprar{
+/* .comprar{
     font-size:large;
     display: inline-block;
     text-align: center;
@@ -139,7 +162,7 @@ li {
     width: 50%;
     border-radius: 30px;
     text-decoration: none;
-}
+} */
 
 .titulo{
     font-size: 5vh;
@@ -186,3 +209,30 @@ td {
 }
 
 
+/* -----Breakpoints------- */
+
+/* Celulares y pequeños dispositivos */
+/* @media screen and (max-width: 576px) {
+    header{
+       background-color: rgb(0, 110, 255);
+       
+    }
+   
+} */
+
+/* Tablets o dispositivos medianos */
+/* @media screen and (min-width: 576px) {
+    header{
+        background-color: aquamarine;
+      }
+    
+} */
+
+
+/* Laptops y Desktops */
+/* @media screen and (min-width: 992px) {
+    header{
+        background-color: rgb(255, 159, 127);
+    }
+    
+} */
