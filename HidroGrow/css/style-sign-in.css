@@ -1,0 +1,17 @@
+.ingresar{
+    margin: 10vh 1vh;
+    padding: 30px 20px;
+    width: 95%;
+    height: 100%;
+    color: rgb(53, 161, 57);
+    border-radius: 10px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    gap:20px;
+
+    
+}
+
+
+

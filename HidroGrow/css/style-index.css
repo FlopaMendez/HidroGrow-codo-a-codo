@@ -111,13 +111,15 @@ li {
 
     transition: all 0.4s ease;
 
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 
 
 .carrusel .grande {
     width: 200%;
-    padding: 2em;
+
 
     display: flex;
     flex-flow: row nowrap;
