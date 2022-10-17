@@ -85,20 +85,6 @@ li {
     height: 90vh;
 }
 
-#como-funciona {
-    background-color: rgb(0, 37, 243);
-    color: white;
-    padding: 5vh;
-    /* font-family: ; */
-
-}
-
-#beneficios {}
-
-#especificaciones {}
-
-
-
 /*Selectores de clase y de clase agrupadosa del carrusel*/
 
 .carrusel {
@@ -214,6 +200,19 @@ table {
 td {
     text-align: center;
 }
+
+#como-funciona2 {
+    background-color: rgb(0, 37, 243);
+    color: white;
+    padding: 2vh;
+    /* font-family: ; */
+
+}
+
+#beneficios {}
+
+#especificaciones {}
+
 
 #cultivatodo{
     border: 0.5em solid rgba(0, 0, 0, 0.123);
