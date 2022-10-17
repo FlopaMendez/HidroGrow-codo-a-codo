@@ -1,7 +1,7 @@
 
 /*Selector universal */
 * {
-    font-family: 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+    font-family: 'Nunito', 'Roboto', 'Open-Sans', sans-serif;
 }
 
 /*Selectores de tipo */
@@ -18,10 +18,10 @@ main {}
 .section-title a{
         margin-left:0.5em;
         font-size: 2.5em;
-        font-weight: 700;
+        font-weight: 900;
 }
 
-#especificaciones, #como-funciona-parte2 a{
+#especificaciones, #como-funciona-parte2, #cultivos a{
 color:rgb(0, 37, 243);
 }
 
@@ -258,6 +258,17 @@ footer {}
     background-color: #FFFFFF;
     color: #000000;
     margin: 1em 2em 1em 2em;
+}
+
+
+.cultivos {
+    margin: 1em 4em 1em 2em;
+    text-align:justify;    
+}
+
+.descripcion {
+    display:flex;
+    color:#000000;
 }
 
 .especificaciones{
