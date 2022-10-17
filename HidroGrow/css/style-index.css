@@ -275,7 +275,7 @@ footer {}
     color:#000000;
 }
 
-.espec, .espec td {
+#datos table, #datos td {
     border: 1px solid white;
     border-collapse: collapse;
     background-color: rgba(0, 0, 0, 0.01);
