@@ -21,6 +21,10 @@ main {}
         font-weight: 700;
 }
 
+#especificaciones, #como-funciona-parte2 a{
+color:rgb(0, 37, 243);
+}
+
 footer {}
 
 .botones {
@@ -266,6 +270,7 @@ footer {}
 }
 #datos {
     width:55%;
+    color:#000000;
 }
 
 
