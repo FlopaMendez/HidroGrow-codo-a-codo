@@ -193,43 +193,56 @@ li {
 
 /* ------------- */
 
-table {
-    width: 100%;
-}
+#como-funciona {}
 
-td {
-    text-align: center;
-}
-
-#como-funciona2 {
+#como-funciona-parte1{
+    padding: 2vh;
     background-color: rgb(0, 37, 243);
     color: white;
-    padding: 2vh;
-    /* font-family: ; */
-
 }
 
-#beneficios {}
+.section-title {
+    margin-bottom:1em;
+}
 
-#especificaciones {}
+.section-title i {
+    font-size: 2em;
+}
+.section-title a{
+    margin-left:0.5em;
+    font-size: 2.5em;
+    font-weight: 700;
+ 
+}
 
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
 
-#cultivatodo{
-    border: 0.5em solid rgba(0, 0, 0, 0.123);
-    margin: 1em 6em 1em 6em;
+#cards2 {
+    background-color: #FFFFFF;
+    color: #000000;"
+}
+
+.img-circle {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#como-funciona-parte2{
+    background-color: rgba(0, 0, 0, 0.02);
+    margin: 1em 2em 1em 2em;
     padding: 6px;
 }
 
-#etapas{
-    display:flex;   
-    text-align: center;
-}
-
-#etapa{
+.card2{
     padding: 1em; 
 }
 
-#cultivatodo img{
+.imgetapas {
     max-width: 100%;
     max-height: 100%;
 }
@@ -239,6 +252,13 @@ td {
     width:5em;
     z-index: 1;
 }
+
+#beneficios {}
+
+#especificaciones {}
+
+
+
 
 
 /* -----Breakpoints------- */
