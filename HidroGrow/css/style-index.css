@@ -141,6 +141,7 @@ footer {}
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 }
 
 .carrusel .punto {
@@ -261,10 +262,10 @@ footer {}
 }
 
 #galeria {
-    width:40%;
+    width:45%;
 }
 #datos {
-    width:60%;
+    width:55%;
 }
 
 
