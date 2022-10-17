@@ -266,6 +266,8 @@ footer {}
 }
 
 #galeria {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 0.5em;
     width:45%;
 }
 #datos {
@@ -273,6 +275,11 @@ footer {}
     color:#000000;
 }
 
+.espec, .espec td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.01);
+}
 
 
 
