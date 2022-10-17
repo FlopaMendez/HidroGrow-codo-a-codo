@@ -255,17 +255,16 @@ footer {}
     margin: 1em 2em 1em 2em;
 }
 
-#especificaciones div{
+.especificaciones{
     padding: 2vh;
     display:flex;
-    
 }
 
 #galeria {
     width:40%;
 }
 #datos {
-    width:40
+    width:60%;
 }
 
 
