@@ -7,6 +7,7 @@
 
 main {}
 
+
 footer {}
 
 
@@ -216,7 +217,7 @@ td {
 
 #cultivatodo{
     border: 0.5em solid rgba(0, 0, 0, 0.123);
-    margin: 1em 40px 1em 40px;
+    margin: 1em 10em 1em 10em;
     padding: 6px;
 }
 
@@ -235,8 +236,8 @@ td {
 }
 
 .icoimg{
-    margin-top: -50%;
-    width:30%;
+    margin-top: -2.5em;
+    width:5em;
     z-index: 1;
 }
 
