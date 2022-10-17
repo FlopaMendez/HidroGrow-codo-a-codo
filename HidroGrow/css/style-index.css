@@ -12,13 +12,11 @@ footer {}
 
 
 li {
-    /* display: inline; */
     list-style-type: none;
     font-weight: bold;  
 }
 
 /*  selectores de clase y de ID del header */
-
 
 .encabezado{
     padding: 0 20px;
@@ -44,7 +42,6 @@ li {
 
 .botones{
     height: 100%;
-
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -209,7 +206,6 @@ li {
 
 /* ------------- */
 
-
 table {
     width: 100%;
 }
@@ -218,6 +214,23 @@ td {
     text-align: center;
 }
 
+#cultivatodo{
+    border: 10px solid rgba(0, 0, 0, 0.123);
+    margin: 2em 10em 2em 10em;
+    
+}
+
+#etapas{
+    display:flex;          
+    text-align: center;
+    justify-content: center;
+}
+
+#etapa{
+    padding: 1em; 
+    margin: 3px;
+
+}
 
 /* -----Breakpoints------- */
 
