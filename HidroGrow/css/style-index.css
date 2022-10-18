@@ -1,18 +1,33 @@
+
 /*Selector universal */
 * {
-    font-family: 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+    font-family: 'Nunito', 'Roboto', 'Open-Sans', sans-serif;
 }
 
 /*Selectores de tipo */
 
 main {}
 
+.section-title {
+        margin-bottom:1em;
+    }
+    
+.section-title i {
+        font-size: 2em;
+}
+.section-title a{
+        margin-left:0.5em;
+        font-size: 2.5em;
+        font-weight: 900;
+}
+
+#especificaciones, #como-funciona-parte2, #cultivos a{
+color:rgb(0, 37, 243);
+}
 
 footer {}
 
-
-
-li {
+.botones {
     list-style-type: none;
     font-weight: bold;  
 }
@@ -77,8 +92,6 @@ li {
 }
 
 
-
-
 /*Selectores de id de secciones*/
 
 #hola {
@@ -98,8 +111,6 @@ li {
     display: flex;
     flex-flow: column nowrap;
 }
-
-
 
 .carrusel .grande {
     width: 200%;
@@ -122,8 +133,6 @@ li {
     grid-template-columns: 25% 25% 50%;
     grid-template-rows: 60% 30% 10%;
     justify-content:left;
-    
-    
     transition: all 0.4s ease;
    
 }
@@ -136,6 +145,7 @@ li {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 }
 
 .carrusel .punto {
@@ -147,7 +157,6 @@ li {
     border-radius: 50%;
     transition: all 0.4s ease;
 }
-
 
 .carrusel .punto.activo{
     background-color: rgb(0, 37, 243);
@@ -165,7 +174,6 @@ li {
     grid-column: 1/3;
     display: flex;
     align-items: flex-end;
-
 }
 
 .grid-item.parrafo{
@@ -193,43 +201,37 @@ li {
 
 /* ------------- */
 
-table {
-    width: 100%;
-}
+#como-funciona {}
 
-td {
-    text-align: center;
-}
-
-#como-funciona2 {
+#como-funciona-parte1{
+    padding: 2vh;
     background-color: rgb(0, 37, 243);
     color: white;
-    padding: 2vh;
-    /* font-family: ; */
-
 }
 
-#beneficios {}
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
 
-#especificaciones {}
+.img-circle {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
 
-
-#cultivatodo{
-    border: 0.5em solid rgba(0, 0, 0, 0.123);
-    margin: 1em 6em 1em 6em;
+#como-funciona-parte2{
+    background-color: rgba(0, 0, 0, 0.02);
+    margin: 1em 2em 1em 2em;
     padding: 6px;
 }
 
-#etapas{
-    display:flex;   
-    text-align: center;
-}
-
-#etapa{
+.card2{
     padding: 1em; 
+    background-color: #ffffff;
 }
 
-#cultivatodo img{
+.imgetapas {
     max-width: 100%;
     max-height: 100%;
 }
@@ -237,8 +239,60 @@ td {
 .icoimg{
     margin-top: -2.5em;
     width:5em;
-    z-index: 1;
 }
+
+#beneficios {
+    background-color: #000f8f;
+    color:rgb(255, 255, 255);
+    margin: -10em 0em 0em 0em;
+    padding-top: 10em;
+    padding-bottom: 1em;
+}
+
+.article {
+    margin: 1em 4em 1em 2em;
+    text-align:justify;
+}
+
+#cards2 {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 1em 2em 1em 2em;
+}
+
+
+.cultivos {
+    margin: 1em 4em 1em 2em;
+    text-align:justify;    
+}
+
+.descripcion {
+    display:flex;
+    color:#000000;
+}
+
+.especificaciones{
+    padding: 2vh;
+    display:flex;
+}
+
+#galeria {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 0.5em;
+    width:45%;
+}
+#datos {
+    width:55%;
+    color:#000000;
+}
+
+#datos table, #datos td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+
 
 
 /* -----Breakpoints------- */
