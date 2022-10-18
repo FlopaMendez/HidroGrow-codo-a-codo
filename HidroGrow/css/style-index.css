@@ -35,44 +35,58 @@ footer {}
 /*  selectores de clase y de ID del header */
 
 .encabezado{
-    padding: 0 20px;
-    margin: 1vw;
-    height: 8vh;
-    width: 95%;
+    background-color: #FFFFFF;
+    margin:0;
+
+    height: 15vh;
+    width: 100%;
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
 
 .logo{
+    
+    height: 60%;
+    margin-left: 4vw;
+    
+
 }
 
 .navBar {
-    height: 100%;
+    width: 100%;
+    /* height: 60%; */
+    margin: 4vw ;
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    /* justify-content: flex-end; */
 }
 
 .botones{
-    height: 100%;
+    width: 100%;
+    margin: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
 }
 
+.link{
+    color: black;
+    padding: 0 20px;
+    font-weight: 800;
+
+}
+
 .link:hover{
     color:#0045f5;
     border-radius: 15px;
-    
-}
-
-.link{
-    color: black;
-    padding: 5px 20px;
     
 }
 
@@ -83,7 +97,7 @@ footer {}
 .comprar{  
     background-color: #0045f5;
     color: whitesmoke;
-    border: 2px solid white;
+    border: 2px solid transparent;
     padding: 5px 20px;
     border-radius: 20px;
 }
@@ -97,21 +111,24 @@ footer {}
 
 .botones .link, .comprar, .linea{
     text-decoration: none;
-    font-size:2vh;
+    font-size:90%;
 }
 
 
 /*Selectores de id de secciones*/
 
 #hola {
-    height: 90vh;
+   padding-top: 20vh;
 }
 
 /*Selectores de clase y de clase agrupadosa del carrusel*/
 
 .carrusel {
-    width: 90%;
-    max-width: 120em;
+    
+    
+    /* max-width: 120em; */
+        
+
     padding: 2em;
     overflow: hidden;
 
@@ -123,6 +140,7 @@ footer {}
 
 .carrusel .grande {
     width: 200%;
+    
 
 
     display: flex;
@@ -137,10 +155,9 @@ footer {}
 
 .carrusel .articulos {
     width: calc(100%/2 - 2em);
-    
     display: grid;
-    grid-template-columns: 25% 25% 50%;
-    grid-template-rows: 60% 30% 10%;
+    grid-template-columns: 25% 20% 55%;
+    grid-template-rows: 40% 20% 10%;
     justify-content:left;
     transition: all 0.4s ease;
    
@@ -148,7 +165,6 @@ footer {}
 
 .carrusel .puntos {
     width: 100%;
-    padding: .5em;
     margin: 1em 0 0;
     display: flex;
     flex-flow: row nowrap;
@@ -158,8 +174,8 @@ footer {}
 }
 
 .carrusel .punto {
-    width: 1em;
-    height: 1em;
+    width: 1vmax;
+    height: 1vmax;
     background-color:white;
     border: 1px solid rgba(0, 0, 0, 0.123);
     margin: .5em .8em;
@@ -177,26 +193,25 @@ footer {}
 }
 
 .grid-item.titulo{
-    font-size: 10vh;
-    font-weight:bolder;
+    font-size: 7vmax;
+    font-weight:800;
     color: rgb(53, 161, 57);
     grid-column: 1/3;
-    display: flex;
-    align-items: flex-end;
+    align-self: center;
 }
 
 .grid-item.parrafo{
-    font-size: 3vh;
+    font-size: 2vmax;
     grid-column: 1/3;
 }
 
 .grid-item.comprar{
-    /* width: 10vw; */
-    font-size:3vh;
+    margin: 10px;
+    font-size:3vmax;
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
     border-radius: 30px;
-    padding: 25px;
+    padding: 2vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +221,9 @@ footer {}
 .grid-item.imagen{
    grid-column: 3/4;
    grid-row: 1/4;
+   width: 100%;
+   align-self: center;
+   
 }
 
 /* ------------- */
