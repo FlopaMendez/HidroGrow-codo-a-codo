@@ -27,8 +27,6 @@ main {}
 color:rgb(0, 37, 243);
 }
 
-
-
 .botones {
     list-style-type: none;
     font-weight: bold;  
@@ -37,7 +35,7 @@ color:rgb(0, 37, 243);
 /*  selectores de clase y de ID del header */
 
 #hola {
-    padding-top: 20vh;
+    padding-top: 15vh;
     margin: 0;
  }
 
