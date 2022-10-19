@@ -8,6 +8,10 @@
 
 main {}
 
+h4 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
 
 
 .section-title {
@@ -253,8 +257,8 @@ color:rgb(0, 37, 243);
 }
 
 .icoimg{
-    margin-top: -2.5em;
-    width:5em;
+    margin-top: -5vw;
+    width: 8vw;
 }
 
 #beneficios {
@@ -397,8 +401,7 @@ footer {
      }
     
      #cards .img-circle {
-        width: 80%;
-        height: 80%;
+            height: 25vw;
     }
 
     #galeria {
