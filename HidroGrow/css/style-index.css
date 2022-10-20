@@ -52,7 +52,7 @@ color:rgb(0, 37, 243);
 }
 
 .logo{
-    height: 60%;
+    height: 50%;
     margin-left: 4vw;
 }
 
@@ -118,14 +118,15 @@ color:rgb(0, 37, 243);
 /* -------#HOLA------------- */
 
 #hola {
-    padding-top: 15vh;
-    margin: 0;
+
  }
 
 
 .carrusel {    
     /* max-width: 120em; */
-    padding: 2em;
+    
+    /* margin: 5% 1%; */
+
     overflow: hidden;
 
     transition: all 0.4s ease;
@@ -136,7 +137,7 @@ color:rgb(0, 37, 243);
 
 .carrusel .grande {
     width: 200%;
-    
+    padding: 0px 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -151,12 +152,54 @@ color:rgb(0, 37, 243);
     width: calc(100%/2 - 2em);
     display: grid;
     column-gap: 10px;
-    grid-template-columns: 25% 20% 55%;
-    grid-template-rows: 35% 15% 10%;
-    justify-content:left;
-    transition: all 0.4s ease;
-   
+    grid-template-columns: 20% 25% 55%;
+    grid-template-rows: 45% 15% 15%;
+    justify-content:start;
+    align-content: flex-end;
+    /* transition: all 0.4s ease; */
 }
+
+
+.articulos .titulo, .parrafo, .comprar{
+    grid-column: 1/3; 
+    margin:2vh 0
+}
+
+.grid-item.titulo{
+    
+    font-size: 7vmax;
+    font-weight:800;
+    color: rgb(53, 161, 57);
+    height: 35vh;
+
+
+
+}
+
+.grid-item.parrafo{
+    font-size: 1.5vmax;
+}
+
+.grid-item.comprar{
+    padding: 25px 0;
+    font-size:2.5vmax;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+}
+
+.grid-item.imagen{
+   grid-column: 3/4;
+   grid-row: 1/4;
+   width: 95%;
+   align-self: center;
+}
+
 
 .carrusel .puntos {
     width: 90%;
@@ -173,51 +216,13 @@ color:rgb(0, 37, 243);
     height: 1vmax;
     background-color:white;
     border: 1px solid rgba(0, 0, 0, 0.123);
-    margin: .5em .8em;
+    margin: 2em .8em;
     border-radius: 50%;
     transition: all 0.4s ease;
 }
 
 .carrusel .punto.activo{
     background-color: #0045f5;
-}
-
-.titulo, .parrafo, .comprar{
-    grid-column: 1/2;  
-}
-
-.grid-item.titulo{
-    font-size: 7vmax;
-    font-weight:800;
-    color: rgb(53, 161, 57);
-    grid-column: 1/3;
-    align-self: center;
-}
-
-.grid-item.parrafo{
-    font-size: 1.5vmax;
-    grid-column: 1/3;
-}
-
-.grid-item.comprar{
-    margin: 10px;
-    font-size:2.5vmax;
-    text-align: center;
-    font-weight: 800;
-    border-radius: 50px;
-    padding: 2vmax;
-    /* height: 60%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1/2;
-}
-
-.grid-item.imagen{
-   grid-column: 3/4;
-   grid-row: 1/4;
-   width: 80%;
-   align-self: center;
 }
 
 /* ------------- */
