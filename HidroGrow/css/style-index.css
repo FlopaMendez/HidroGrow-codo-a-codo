@@ -6,7 +6,7 @@
 
 /*Selectores de tipo */
 
-main {}
+
 
 h4 {
     margin-top: 1vw;
@@ -39,7 +39,7 @@ color:rgb(0, 37, 243);
     background-color: #FFFFFF;
     margin:0;
     padding-top: 10px;
-    height: 10%;
+    height: 6em;
     width: 100%;
     
     display: flex;
@@ -53,7 +53,7 @@ color:rgb(0, 37, 243);
 }
 
 .logo{
-    width: 6em;
+    width: 5.5em;
     margin-left: 3%;
 }
 
@@ -115,11 +115,6 @@ color:rgb(0, 37, 243);
 
 
 /* -------#HOLA------------- */
-
-#hola {
-
- }
-
 
 .carrusel {    
     /* max-width: 120em; */
@@ -226,7 +221,7 @@ color:rgb(0, 37, 243);
 
 /* ------------- */
 
-#como-funciona {}
+/* -------#COMO FUNCIONA------------- */
 
 #como-funciona-parte1{
     padding: 2vh;
@@ -319,13 +314,13 @@ color:rgb(0, 37, 243);
 
 
 
- /* -------Footer------------- */
+ /* -------FOOTER------------- */
  
 footer {
     background-color: #000000;
     color: #FFFFFF;
     padding: 2% 5%;
-    height: 43vh;
+    height: 270px;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(11,1fr);
@@ -349,7 +344,7 @@ footer {
 .grid-item.col1 form{
     grid-row: 3/4;
     margin: 1px;
-    height: 7vh;
+    height: 45px;
     
     display: flex;
     flex-flow: row nowrap;
@@ -379,7 +374,7 @@ footer .enviar{
 
 .grid-item.col1 img{
     grid-row: 4/5;
-    width: 20vh;
+    width: 120px;
     
     
 }
@@ -397,22 +392,22 @@ footer .enviar{
 
 .grid-item.col2 ul{
     text-align: left;
-    
     margin: 0;
 }
 
 .grid-item.col2 a{
-    font-size: .7em;
+    font-size: .8em;
     color: #FFFFFF;
     text-decoration: none;
    
 }
 
 .grid-item.col2 hr{
-    width: 80%;
+    width: 70%;
     margin: 10px;
     padding: 0;
-    margin-left: 20px;
+    margin: 5px;;
+    margin-left: 40px;
 
 }
 
@@ -421,7 +416,8 @@ footer .enviar{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 40px;
+    padding-top: 5px;
 }
 
 .iconos-social .fa-brands{
@@ -489,25 +485,26 @@ footer .enviar{
 }
 
 .grid-item.col3 p{
-    font-size: 2vh;
+    font-size: .8em;
 }
 .grid-item.col3 .legales{
     margin: 30px 0;
     height: 45%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
-    
+    justify-content:start;
+    gap: 15px;
 }
 
 .leg1, .leg2{
     margin: 0;
+
     
 }
 
 /* ------------- */
 
-/* -----Breakpoints------- */
+/* -------BREAKPOINTS------------- */
 
 /* Celulares y pequeños dispositivos */
 @media screen and (max-width: 576px) {
