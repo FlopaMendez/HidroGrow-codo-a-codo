@@ -38,6 +38,7 @@ color:rgb(0, 37, 243);
 .encabezado{
     background-color: #FFFFFF;
     margin:0;
+    padding-top: 10px;
     height: 10%;
     width: 100%;
     
@@ -52,8 +53,8 @@ color:rgb(0, 37, 243);
 }
 
 .logo{
-    width: 5%;
-    margin-left: 10px;
+    width: 6em;
+    margin-left: 3%;
 }
 
 .navBar {
@@ -70,6 +71,7 @@ color:rgb(0, 37, 243);
 .navBar .botones{
     width: 100%;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
