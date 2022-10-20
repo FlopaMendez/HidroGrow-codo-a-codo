@@ -320,8 +320,8 @@ color:rgb(0, 37, 243);
 footer {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 2% 5%;
-    height: 43vh;
+    padding: 0% 5%;
+    height: 50vh;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(11,1fr);

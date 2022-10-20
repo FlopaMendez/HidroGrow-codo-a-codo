@@ -1,5 +1,4 @@
 
-
 .formulario{
     width: 90%;
     padding: 10px 50px;
@@ -10,7 +9,17 @@ h1{
     font-weight: bold;
 }
 
+p{
+    margin-top:revert !important;
+}
 
+footer{
+    height: auto !important;
+}
+
+ads{
+display:none;
+}
 
 button{  
     background-color: rgb(0, 37, 243) !important ;
