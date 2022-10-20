@@ -125,9 +125,7 @@ color:rgb(0, 37, 243);
     padding: 2em;
     padding-top: 0em;
     overflow: hidden;
-
     transition: all 0.4s ease;
-
     display: flex;
     flex-flow: column nowrap;
 }
@@ -148,7 +146,7 @@ color:rgb(0, 37, 243);
     display: grid;
     column-gap: 10px;
     grid-template-columns: 25% 20% 55%;
-    grid-template-rows: 65% 25% 20%;
+    grid-template-rows: 55% 35% 15%;
     justify-content:left;
     transition: all 0.4s ease;
    
@@ -218,7 +216,6 @@ color:rgb(0, 37, 243);
 .grid-item.imagen{
    grid-column: 3/3;
    grid-row: 1 / span 2;
-   width: 80%;
    align-self: center;
 }
 
