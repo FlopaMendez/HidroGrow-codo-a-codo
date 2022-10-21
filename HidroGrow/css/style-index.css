@@ -498,8 +498,6 @@ footer .enviar{
     .navBar {
         display: none;
     }
-<<<<<<< Updated upstream
-=======
     .navBar .botones, .navBar .botones .link, .navBar .botones .comprar {
         display: block;
         text-align: center;
@@ -511,7 +509,6 @@ footer .enviar{
     /* hamburguesa*/
 
 
->>>>>>> Stashed changes
 
     .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
         display: none;
