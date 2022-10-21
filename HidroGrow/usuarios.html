@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<body>
+    
+    <div id="usuariosHidrogrow">
+        <label for="">Nombre: <input type="text" v-model="nombre"></label>
+        <br><br>
+        <label for="">Apellido: <input type="text" v-model="apellido"></label>
+        <h2>USUARIO</h2>
+        <h2>Nombre: {{name}}</h2>
+        <h2>Email: {{email}}</h2>
+        <h2>DISPOSITIVO</h2>
+        <h2>idUser: {{id}}</h2>
+        <h2>Número de serie del dispositivo: {{serialNumber}}</h2>
+        <h2>Contraseña del dispositivo: {{password}}</h2>
+        <h2>Fecha Inicio Cultivo: {{fechaInicio}}</h2>
+        <h2>PH: {{ph}}</h2>
+        <h2>Temperatura: {{temperatura}}</h2>
+
+    
+        
+     </div>
+
+
+     <script src="js/api-usuarios-dispositivos.js"></script>
+</body>
+</html>
