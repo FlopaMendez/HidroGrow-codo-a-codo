@@ -229,8 +229,7 @@ color:rgb(0, 37, 243);
     gap: 3vw;
 }
 
-.img-circle {
-    height: 25vw;
+.img-circle { 
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
 }
