@@ -24,9 +24,47 @@ punto.forEach( ( cadaPunto , i )=> {
     })
 })
 
+// GALERÍA DE IMAGNES
+
 function myFunction(imgs) {
     var expandImg = document.getElementById("expandedImg");
     expandImg.src = imgs.src;
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
   }
+
+// FORMULARIO DE COMPRA
+
+(function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+
+  function RegistroCheck() {
+    if (!(document.getElementById('CheckRegistrar').checked)) {
+     document.getElementById('inputPassword').style.visibility="hidden";
+     document.getElementById('inputPassword').required = false;
+     document.getElementById('CheckNewsletter').disabled = false; 
+    }
+    else {
+    document.getElementById('inputPassword').style.visibility="visible";
+    document.getElementById('inputPassword').required = true;
+    document.getElementById('CheckNewsletter').checked = true;  
+    document.getElementById('CheckNewsletter').disabled = true;
+    }
+}

@@ -312,7 +312,7 @@ color:rgb(0, 37, 243);
 footer {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 2% 5%;
+    padding: 2% 5% 0% 5%;
     height: auto;
     display: grid;
     gap: 30px;
@@ -489,6 +489,17 @@ footer .enviar{
     .descripcion, #beneficios {
         flex-direction: row;
     }
+    .navBar .botones, .navBar .botones .link, .navBar .botones .comprar {
+        display: block;
+        text-align: center;
+        font-size: 80%;
+        padding: 0.8em;
+
+    }
+
+    /* hamburguesa*/
+
+
 
     .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
         display: none;

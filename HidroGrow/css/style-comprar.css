@@ -14,8 +14,12 @@ p{
 }
 
 footer{
-    height: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: max-content;
 }
+
 
 .leg1, .leg2, .botones.menu, .grid-item.col1 h3, .grid-item.col1 .suscripcion{
 display:none;
