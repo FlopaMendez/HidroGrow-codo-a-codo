@@ -116,9 +116,7 @@ color:rgb(0, 37, 243);
 
 .carrusel {    
     /* max-width: 120em; */
-
     margin: 15vh 1% 5%;
-    
     overflow: hidden;
     transition: all 0.4s ease;
     display: flex;
@@ -154,6 +152,7 @@ color:rgb(0, 37, 243);
 }
 
 .grid-item.titulo{
+    
     font-size: 7vmax;
     font-weight:800;
     color: rgb(53, 161, 57);
@@ -172,6 +171,7 @@ color:rgb(0, 37, 243);
 }
 
 .grid-item.comprar{
+    /* padding: 25px 0; */
     font-size:2.5vmax;
     text-align: center;
     font-weight: 800;
@@ -315,8 +315,7 @@ color:rgb(0, 37, 243);
 footer {
     background-color: #000000;
     color: #FFFFFF;
-
-    padding: 0% 5%;
+    padding: 2% 5%;
     height: auto;
     display: grid;
     gap: 30px;
