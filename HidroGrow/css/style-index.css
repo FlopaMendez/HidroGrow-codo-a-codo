@@ -315,7 +315,7 @@ color:rgb(0, 37, 243);
 footer {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 2% 5%;
+    padding: 2% 5% 0% 5%;
     height: auto;
     display: grid;
     gap: 30px;
