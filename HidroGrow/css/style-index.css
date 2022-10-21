@@ -296,6 +296,7 @@ color:rgb(0, 37, 243);
     width:45%;
 }
 #datos {
+    padding-right: 0;
     width:55%;
     color:#000000;
 }
