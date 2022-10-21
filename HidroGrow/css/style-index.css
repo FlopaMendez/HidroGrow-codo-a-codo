@@ -6,13 +6,10 @@
 
 /*Selectores de tipo */
 
-
-
 h4 {
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
-
 
 .section-title {
         margin-bottom:1em;
@@ -116,13 +113,11 @@ color:rgb(0, 37, 243);
     display: none;
 }
 
-
-
 /* -------#HOLA------------- */
 
 .carrusel {    
     /* max-width: 120em; */
-    margin: 15vh 1% 5%;
+    margin: 15vh 1% 0%;
     overflow: hidden;
     transition: all 0.4s ease;
     display: flex;
@@ -131,14 +126,13 @@ color:rgb(0, 37, 243);
 
 .carrusel .grande {
     width: 200%;
-    padding: 0px 10px;
+    padding: 10px 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
     transform: translateX(0%);
-
 }
 
 .carrusel .articulos {
@@ -163,9 +157,6 @@ color:rgb(0, 37, 243);
     font-weight:800;
     color: rgb(53, 161, 57);
     margin: 0;
-    
-
-
 
 }
 
@@ -192,14 +183,14 @@ color:rgb(0, 37, 243);
 .grid-item.imagen{
    grid-column: 3/4;
    grid-row: 1/4;
-   width: 95%;
+   width: 90%;
    align-self: center;
 }
 
 
 .carrusel .puntos {
     width: 90%;
-    margin: 1em 0 0;
+    margin: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -235,9 +226,11 @@ color:rgb(0, 37, 243);
     display: flex;
     text-align: center;
     justify-content: space-around;
+    gap: 3vw;
 }
 
 .img-circle {
+    height: 25vw;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
 }
@@ -284,7 +277,7 @@ color:rgb(0, 37, 243);
 
 
 .cultivos {
-    margin: 1em 4em 1em 2em;
+    margin: 2vw;
     text-align:justify;    
 }
 
@@ -313,8 +306,6 @@ color:rgb(0, 37, 243);
     border-collapse: collapse;
     background-color: rgba(0, 0, 0, 0.01);
 }
-
-
 
  /* -------FOOTER------------- */
  
@@ -437,7 +428,6 @@ footer .enviar{
     display: grid;
     grid-template-columns: 45% 55%;
     grid-template-rows: 65% 35%;
-    
 }
 
 .tel-mail .i{
@@ -487,13 +477,58 @@ footer .enviar{
     margin: 0;
 }
 
-/* ------------- */
-
 /* -------BREAKPOINTS------------- */
 
 /* Celulares y pequeños dispositivos */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 620px) {
     
+    .cards, .especificaciones {
+        flex-direction: column;
+    }
+
+    .descripcion, #beneficios {
+        flex-direction: row;
+    }
+
+    .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
+        display: none;
+    }
+ 
+    .cultivos {
+        margin: 2vw;
+     }
+
+     .article , ul{
+        margin: 1em 1em 1em 1em;
+        padding-inline-start: 0em;
+     }
+    
+    #galeria {
+        width:auto;
+    }
+    #datos {
+        width:auto;
+    }
+    
+    .section-title {
+        margin-bottom:1em;
+    }
+    
+    .section-title i {
+        font-size: 1em;
+    }
+
+    .section-title a{
+        margin-left:0.1em;
+
+    
+    }
+
+}
+
+/* Tablets o dispositivos medianos */
+@media screen and (max-width: 992px) { 
+
     #menu-check:not(:checked) ~ nav{
         display: none;
     }
@@ -537,9 +572,7 @@ footer .enviar{
         display: block;
     }
 
-    * {
-        flex-direction: column;
-    }
+
 
     .encabezado{
         height: 4em ;
@@ -568,61 +601,8 @@ footer .enviar{
     }
 
 
-
-
-    .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
-        display: none;
-    }
-
-    .descripcion, #cards {
-        flex-direction: row;
-    }
-  
-    .cultivos {
-        margin: 1em 2em 1em 2em;
-     }
-
-     .article , ul{
-        margin: 1em 1em 1em 1em;
-        padding-inline-start: 0em;
-     }
-    
-     #cards .img-circle {
-            height: 25vw;
-    }
-
-    #galeria {
-        width:auto;
-    }
-    #datos {
-        width:auto;
-    }
-    
-    .section-title {
-        margin-bottom:1em;
-    }
-    
-    .section-title i {
-        font-size: 1em;
-    }
-
-    .section-title a{
-        margin-left:0.1em;
-        font-size: 1.5em;
-        font-weight: 700;
-    
-    }
-
-}
-
-/* Tablets o dispositivos medianos */
-/* @media screen and (min-width: 576px) {
-    header{
-        background-color: aquamarine;
       }
     
-    
-} */
 
 
 /* Laptops y Desktops */
