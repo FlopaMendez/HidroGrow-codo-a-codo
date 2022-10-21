@@ -116,7 +116,9 @@ color:rgb(0, 37, 243);
 
 .carrusel {    
     /* max-width: 120em; */
+
     margin: 15vh 1% 5%;
+    
     overflow: hidden;
     transition: all 0.4s ease;
     display: flex;
