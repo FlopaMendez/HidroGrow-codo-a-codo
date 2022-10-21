@@ -112,6 +112,12 @@ color:rgb(0, 37, 243);
 }
 
 
+#menu, #menu-check{
+    display: none;
+}
+
+
+
 /* -------#HOLA------------- */
 
 .carrusel {    
@@ -487,17 +493,82 @@ footer .enviar{
 
 /* Celulares y pequeños dispositivos */
 @media screen and (max-width: 576px) {
-    header{
-       background-color: rgb(0, 110, 255);    
+    
+    #menu-check:not(:checked) ~ nav{
+        display: none;
+    }
+
+    #menu-check:checked ~ nav{
+        display: block;
+    }
+
+    #menu{
+        display: block;
+        font-size: 1.2em;
+        font-weight: bold;
+        color:#0045f5;
+        text-align: center;
+        border: 2px solid #0045f5;
+        border-radius: 5px;
+        margin-right: 2em;
+        position: absolute;
+        top: 1em;
+        right: 0;   
+        z-index: 100;
+        width:2em;
+        height: 1.5em;
+    }
+
+    #menu:hover{
+        color: #FFFFFF;
+        background-color: #0045f5;
+    }
+
+    #menu-cerrar{
+        display: none;
+        
+    }
+
+    #menu-check:checked ~ label #menu-abrir{
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-cerrar{
+        display: block;
     }
 
     * {
         flex-direction: column;
     }
 
-    .navBar {
+    .encabezado{
+        height: 4em ;
+    }
+
+    .encabezado .navBar {
+        position: absolute; 
+        top: 0;
+        right: 0;
+        width: auto;
+        background-color:rgba(255, 255, 255, .8);
+        margin-top: 3.5em ;
+        padding-right: 2em ;
+         
+    }
+
+    .encabezado .navBar p{
         display: none;
     }
+    .navBar .botones, .navBar .botones .link, .navBar .botones .comprar {
+        display: block;
+        text-align: center;
+        font-size: 80%;
+        padding: 0.8em;
+
+    }
+
+
+
 
     .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
         display: none;
@@ -550,13 +621,16 @@ footer .enviar{
         background-color: aquamarine;
       }
     
+    
 } */
 
 
 /* Laptops y Desktops */
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     header{
-        background-color: rgb(255, 159, 127);
+        /* background-color: rgb(255, 159, 127); */
+
     }
     
-} */
+    
+}
