@@ -3,7 +3,6 @@
 const grande    = document.querySelector('.grande')
 const punto     = document.querySelectorAll('.punto')
 
-
 punto.forEach( ( cadaPunto , i )=> {
     // Asignamos un CLICK a cadaPunto
     punto[i].addEventListener('click',()=>{
