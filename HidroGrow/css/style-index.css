@@ -6,7 +6,7 @@
 
 /*Selectores de tipo */
 
-main {}
+
 
 h4 {
     margin-top: 1vw;
@@ -36,7 +36,8 @@ color:rgb(0, 37, 243);
 .encabezado{
     background-color: #FFFFFF;
     margin:0;
-    height: 15vh;
+    padding-top: 10px;
+    height: 6em;
     width: 100%;
     
     display: flex;
@@ -50,17 +51,14 @@ color:rgb(0, 37, 243);
 }
 
 .logo{
-    height: 60%;
-    margin-left: 4vw;
+    width: 5.5em;
+    margin-left: 3%;
 }
 
 .navBar {
     width: 100%;
-    /* height: 60%; */
-    margin: 4vw ;
     display: flex;
     flex-flow: row nowrap;
-    /* justify-content: flex-end; */
 }
 
 .botones {
@@ -71,6 +69,7 @@ color:rgb(0, 37, 243);
 .navBar .botones{
     width: 100%;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -115,15 +114,11 @@ color:rgb(0, 37, 243);
 
 /* -------#HOLA------------- */
 
-#hola {
-    padding-top: 15vh;
-    margin: 0;
- }
-
 .carrusel {    
     /* max-width: 120em; */
-    padding: 2em;
-    padding-top: 0em;
+    margin: 15vh 1% 5%;
+
+>>>>>>> main
     overflow: hidden;
     transition: all 0.4s ease;
     display: flex;
@@ -131,7 +126,8 @@ color:rgb(0, 37, 243);
 }
 
 .carrusel .grande {
-    width: 200%; 
+    width: 200%;
+    padding: 0px 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -145,12 +141,55 @@ color:rgb(0, 37, 243);
     width: calc(100%/2 - 2em);
     display: grid;
     column-gap: 10px;
-    grid-template-columns: 25% 20% 55%;
-    grid-template-rows: 55% 35% 15%;
-    justify-content:left;
-    transition: all 0.4s ease;
-   
+    grid-template-columns: 20% 25% 55%;
+    grid-template-rows: 55% 20% 15%;
+    justify-content:start;
+    align-content: center;
 }
+
+
+.articulos .titulo, .parrafo, .comprar{
+    grid-column: 1/3; 
+    /* margin:2% 0 */
+}
+
+.grid-item.titulo{
+    font-size: 7vmax;
+    font-weight:800;
+    color: rgb(53, 161, 57);
+    margin: 0;
+    
+
+
+
+}
+
+.grid-item.parrafo{
+    margin-top:0;
+    margin-bottom:0;
+    align-self: center;
+    font-size: 1.5vmax;
+}
+
+.grid-item.comprar{
+    font-size:2.5vmax;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+}
+
+.grid-item.imagen{
+   grid-column: 3/4;
+   grid-row: 1/4;
+   width: 95%;
+   align-self: center;
+}
+
 
 .carrusel .puntos {
     width: 90%;
@@ -167,7 +206,7 @@ color:rgb(0, 37, 243);
     height: 1vmax;
     background-color:white;
     border: 1px solid rgba(0, 0, 0, 0.123);
-    margin: .5em .8em;
+    margin: 2em .8em;
     border-radius: 50%;
     transition: all 0.4s ease;
 }
@@ -176,52 +215,9 @@ color:rgb(0, 37, 243);
     background-color: #0045f5;
 }
 
-.titulo, .parrafo, .comprar{
-    grid-column: 1/2;  
-}
-
-.grid-item.titulo{
-    margin-top:0;
-    margin-bottom:0;
-    align-items: center;
-    font-size: 7vmax;
-    font-weight:800;
-    color: rgb(53, 161, 57);
-    grid-column: 1/3;
-    align-self: center;
-}
-
-.grid-item.parrafo{
-    margin-top:0;
-    margin-bottom:0;
-    align-self: center;
-    font-size: 1.5vmax;
-    grid-column: 1/3;
-}
-
-.grid-item.comprar{
-    margin: 0px 0px 0px 10px;
-    font-size:2.5vmax;
-    text-align: center;
-    font-weight: 800;
-    border-radius: 50px;
-    padding: 2vmax;
-    /* height: 60%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1/2;
-}
-
-.grid-item.imagen{
-   grid-column: 3/3;
-   grid-row: 1 / span 2;
-   align-self: center;
-}
-
 /* ------------- */
 
-#como-funciona {}
+/* -------#COMO FUNCIONA------------- */
 
 #como-funciona-parte1{
     padding: 2vh;
@@ -314,11 +310,12 @@ color:rgb(0, 37, 243);
 
 
 
- /* -------Footer------------- */
+ /* -------FOOTER------------- */
  
 footer {
     background-color: #000000;
     color: #FFFFFF;
+
     padding: 0% 5%;
     height: auto;
     display: grid;
@@ -345,7 +342,7 @@ footer {
 .grid-item.col1 form{
     grid-row: 2/3;
     margin: 1px;
-    height: 7vh;
+    height: 45px;
     
     display: flex;
     flex-flow: row nowrap;
@@ -373,8 +370,8 @@ footer .enviar{
 }
 
 .grid-item.col1 img{
-    grid-row: 3/4;
-    width: 20vh;   
+    grid-row: 4/5;
+    width: 120px;
 }
 
 .grid-item.col2{
@@ -385,21 +382,22 @@ footer .enviar{
 }
 
 .grid-item.col2 ul{
-    text-align: left;  
+    text-align: left;
     margin: 0;
 }
 
 .grid-item.col2 a{
-    font-size: .7em;
+    font-size: .8em;
     color: #FFFFFF;
     text-decoration: none;  
 }
 
 .grid-item.col2 hr{
-    width: 80%;
+    width: 70%;
     margin: 10px;
     padding: 0;
-    margin-left: 20px;
+    margin: 5px;;
+    margin-left: 40px;
 }
 
 .grid-item.col2 .iconos-social{
@@ -407,7 +405,8 @@ footer .enviar{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 40px;
+    padding-top: 5px;
 }
 
 .iconos-social .fa-brands{
@@ -468,23 +467,24 @@ footer .enviar{
 }
 
 .grid-item.col3 p{
-    font-size: 2vh;
+    font-size: .8em;
 }
 .grid-item.col3 .legales{
     margin: 30px 0;
     height: 35%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between; 
+    justify-content:start;
+    gap: 15px;
 }
 
 .leg1, .leg2{
-    margin: 0; 
+    margin: 0;
 }
 
 /* ------------- */
 
-/* -----Breakpoints------- */
+/* -------BREAKPOINTS------------- */
 
 /* Celulares y pequeños dispositivos */
 @media screen and (max-width: 576px) {
