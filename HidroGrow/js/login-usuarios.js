@@ -10,7 +10,7 @@ function traer() {
             contenidoUsr.innerHTML =
                 `
                         <p></p>
-                        <img src="${data.results[0].picture.large}" width="100px" class="img-fluid rounded-circle">
+                        <img class="img-circle" src="${data.results[0].picture.large}" width="100px" class="img-fluid rounded-circle">
                         <p>Nombre: ${data.results[0].name.first}</p>
                         <p>Email: ${data.results[0].email}</p>
                         <br>
