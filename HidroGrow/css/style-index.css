@@ -231,6 +231,11 @@ color:rgb(0, 37, 243);
     justify-content: space-around;
 }
 
+.cardsL {
+    display:flex;
+    justify-content:space-between;
+}
+
 .img-circle {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
