@@ -363,6 +363,7 @@ footer {
 .suscripcion .mail , .enviar{
     border: 0;
 }
+
 footer .suscripcion .mail{
     width: 60%;
     padding: 5px 20px;
@@ -371,9 +372,9 @@ footer .suscripcion .mail{
 
 footer .enviar{
     width: 40%;
-    background-color: #0045f5;
+    background-color: #0045f5 !important;
     color: #FFFFFF;
-    border-left: 1px solid blue;
+    border-left: 1px solid #0045f5 !important;
     font-weight: 900;
     font-size: 2.5vh;
     padding: 5px 20px;
@@ -381,7 +382,7 @@ footer .enviar{
 }
 
 .grid-item.col1 img{
-    grid-row: 4/5;
+    grid-row: 3/3;
     width: 120px;
 }
 

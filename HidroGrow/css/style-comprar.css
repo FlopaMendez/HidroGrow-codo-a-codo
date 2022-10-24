@@ -16,10 +16,19 @@ p{
 
 
 button{  
-    background-color: rgb(0, 37, 243)  !important;
+    background-color: #0045f5  !important;
+    border: 2px solid transparent !important;
     color: whitesmoke !important;
     padding: 5px 20px !important;
     border-radius: 20px !important;
+}
+
+button:hover {
+    background-color: white !important;
+    color: #0045f5 !important;
+    border: 2px solid #0045f5 !important;
+    text-decoration: none !important;
+    font-size:100% !important;
 }
 
 /* footer reducido */
