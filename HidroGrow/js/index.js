@@ -68,3 +68,15 @@ function myFunction(imgs) {
     document.getElementById('CheckNewsletter').disabled = true;
     }
 }
+
+
+function HiddenMenu(){
+ document.getElementById("encabezado").classList.toggle('no-show');
+}
+window.onload = function() 
+{
+  document.getElementById("encabezado").addEventListener( 'click' , HiddenMenu ); 
+}
+
+
+

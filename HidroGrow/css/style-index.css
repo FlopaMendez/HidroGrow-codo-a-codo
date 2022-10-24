@@ -33,8 +33,7 @@ color:rgb(0, 37, 243);
 .encabezado{
     background-color: #FFFFFF;
     margin:0;
-    padding-top: 10px;
-    height: 6em;
+    height: 5em;
     width: 100%;
     
     display: flex;
@@ -45,7 +44,12 @@ color:rgb(0, 37, 243);
     position: fixed;
     z-index: 10;
     top: 0;
+    right: 0;
 }
+
+.no-show{
+    display:none;
+    }
 
 .logo{
     width: 5.5em;
@@ -56,6 +60,7 @@ color:rgb(0, 37, 243);
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    margin-right:2em ;
 }
 
 .botones {
@@ -137,6 +142,7 @@ color:rgb(0, 37, 243);
 
 .carrusel .articulos {
     width: calc(100%/2 - 2em);
+    height:60vh;
     display: grid;
     column-gap: 10px;
     grid-template-columns: 20% 25% 55%;
@@ -156,7 +162,9 @@ color:rgb(0, 37, 243);
     font-size: 7vmax;
     font-weight:800;
     color: rgb(53, 161, 57);
+    line-height :1em;
     margin: 0;
+
 
 }
 
@@ -183,11 +191,18 @@ color:rgb(0, 37, 243);
 .grid-item.imagen{
    grid-column: 3/4;
    grid-row: 1/4;
-   width: 90%;
+   width:45vw;
    align-self: center;
 }
 
-
+.grid-item.iframe{
+    grid-column: 3/4;
+    grid-row: 1/4;
+    width: 45vw;
+    height: 27vw;
+    align-self: center;
+ }
+ 
 .carrusel .puntos {
     width: 90%;
     margin: 0;
@@ -586,7 +601,7 @@ footer .enviar{
 
 
     .encabezado{
-        height: 4em ;
+        /* height: 4em ; */
     }
 
     .encabezado .navBar {
