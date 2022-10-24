@@ -163,8 +163,7 @@ color:rgb(0, 37, 243);
     font-weight:800;
     color: rgb(53, 161, 57);
     line-height :1em;
-    margin: 0;
-
+    margin: 0; 
 
 }
 
@@ -198,7 +197,7 @@ color:rgb(0, 37, 243);
 .grid-item.iframe{
     grid-column: 3/4;
     grid-row: 1/4;
-    width: 45vw;
+    width: 94.3%;
     height: 27vw;
     align-self: center;
  }
