@@ -509,7 +509,16 @@ footer .enviar{
         text-align: center;
         font-size: 80%;
         padding: 0.8em;
+    }
 
+    .carrusel .articulos {
+        grid-template-columns: 0% 0% 100%;
+        grid-template-rows: 100% 0% 0%;
+    }
+    
+    .grid-item.imagen {
+        grid-column: 1/4;
+        width: 100%;    
     }
 
     /* hamburguesa*/
