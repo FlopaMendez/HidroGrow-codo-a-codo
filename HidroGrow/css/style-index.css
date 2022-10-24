@@ -512,13 +512,18 @@ footer .enviar{
     }
 
     .carrusel .articulos {
-        grid-template-columns: 0% 0% 100%;
-        grid-template-rows: 100% 0% 0%;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
     }
     
     .grid-item.imagen {
-        grid-column: 1/4;
+        grid-column: 1/2;
         width: 100%;    
+    }
+
+    .grid-item.iframe{
+        height: 66%;
+        grid-column: 1/1;
     }
 
     /* hamburguesa*/
