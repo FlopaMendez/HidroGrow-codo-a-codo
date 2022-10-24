@@ -1,8 +1,4 @@
-.div_hide {
-    opacity: 0;
-}
-
-.contenedorUsr {
+.contenedor {
     display: grid;
     background-color: cornflowerblue;
     /* grid-template-columns: 100px 100px 100px */
@@ -13,17 +9,15 @@
     grid-template-rows: 2fr 1fr 3fr; */
     grid-template-columns: 50% 50% ;
     grid-auto-rows: 3fr;
+
     column-gap: 10px;
     row-gap: 10px;
+  
 }
 
-.imgUsr {
-    border-radius: 50%;
-
+.box {
+    background-color: slateblue;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
 }
-
-.divUsr {
-    padding: 20px;
-    text-align: left;
-}
-
