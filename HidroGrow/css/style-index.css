@@ -153,7 +153,6 @@ color:rgb(0, 37, 243);
     align-content: center;
 }
 
-
 .articulos .titulo, .parrafo, .comprar{
     grid-column: 1/ span 2; 
     /* margin:2% 0 */
@@ -568,8 +567,6 @@ footer .enviar{
 
     .section-title a{
         margin-left:0.1em;
-
-    
     }
 
 }
