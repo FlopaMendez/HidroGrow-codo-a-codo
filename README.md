@@ -7,13 +7,14 @@ AUTORES:
 
 TÍTULO DEL PROYECTO:</br> HidroGrow - Cultivá en tu hogar.</br>
 
-Temática: HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
+TEMÁTICA: </br>HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
 
-Link del TPO:</br>
+LINK del TPO:</br>
 
 </br>
-Link a carpeta de GitHub o similar con los archivos del TPO:</br>
+LINK a carpeta de GitHub con los archivos del TPO:</br>
 https://github.com/FlopaMendez/HidroGrow-codo-a-codo</br>
+
 </br>
 API utilizada en el TPO:</br>
 - https://randomuser.me/api/</br>
@@ -23,6 +24,7 @@ Ubicación y descripción breve de la animación:</br>
 - Carrousel con n posiciones.</br>
 - navBar con mostrar / ocultar al hacer scroll</br>
 </br>
+
 Comentarios sobre la entrega (opcional):</br>
 
 
