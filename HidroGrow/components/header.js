@@ -20,11 +20,11 @@ class Header extends HTMLElement {
                 <!--NavBar-->
                 <ul class="botones">
                     <!--Links secciones-->
-                    <li><a class="link" href="#hola">HOLA</a></li>
-                    <li><a class="link" href="#como-funciona">CÓMO FUNCIONA</a></li>
-                    <li><a class="link" href="#inicio-beneficios">BENEFICIOS</a></li>
-                    <li><a class="link" href="#cultivos">CULTIVOS</a></li>
-                    <li><a class="link" href="#especificaciones">ESPECIFICACIONES</a></li>
+                    <li><a class="link" href="index.html#hola">HOLA</a></li>
+                    <li><a class="link" href="index.html#como-funciona">CÓMO FUNCIONA</a></li>
+                    <li><a class="link" href="index.html#inicio-beneficios">BENEFICIOS</a></li>
+                    <li><a class="link" href="index.html#cultivos">CULTIVOS</a></li>
+                    <li><a class="link" href="index.html#especificaciones">ESPECIFICACIONES</a></li>
                     <li><a class="comprar" href="comprar.html">COMPRAR</a></li>
                     <li>
                         <p class="linea">|</p>

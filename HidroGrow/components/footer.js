@@ -26,11 +26,11 @@ class Footer  extends HTMLElement {
           <ul class="botones menu">
               <!--Lista Menu-->
 
-              <li><a href="#hola">Hola</a></li>
-              <li><a href="#como-funciona">Cómo funciona</a></li>
-              <li><a href="#beneficios">Beneficios</a></li>
-              <li><a href="#cultivos">Cultivos</a></li>
-              <li><a href="#especificaciones">Especificaciones</a></li>
+              <li><a href="index.html#hola">Hola</a></li>
+              <li><a href="index.html#como-funciona">Cómo funciona</a></li>
+              <li><a href="index.html#beneficios">Beneficios</a></li>
+              <li><a href="index.html#cultivos">Cultivos</a></li>
+              <li><a href="index.html#especificaciones">Especificaciones</a></li>
               <li><a href="comprar.html" target="_blank">Compra</a></li>
               <li><a href="sign-in.html" target="_blank">Iniciar Sesión</a></li>
           </ul>

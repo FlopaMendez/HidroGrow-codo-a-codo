@@ -620,8 +620,6 @@ footer .enviar{
         display: block;
     }
 
-
-
     .encabezado{
         /* height: 4em ; */
     }
@@ -651,7 +649,6 @@ footer .enviar{
 
       }
     
-
 
 /* Laptops y Desktops */
 @media screen and (min-width: 992px) {
