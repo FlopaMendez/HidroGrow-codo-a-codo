@@ -1,0 +1,41 @@
+{
+  "producto": "HidroGrow",
+  "location": "Buenos Aires, Argentina",
+  "startup": 2022,
+  "secretBase": "Cultivá todo el año",
+  "active": true,
+  "dispositivos": [
+    {
+      "name": "Living",
+      "password": "admin1234",
+      "serialNumber": "AtHnNaSb",
+      "fechaInicio": "12/10/2022",
+      "ph": [
+        6,
+        6.5,
+        6.2
+      ],
+      "temperatura": [
+        26,
+        30,
+        28
+      ]
+    },
+    {
+      "name": "Cocina",
+      "password": "admin1234",
+      "serialNumber": "GhvZ6YUx",
+      "fechaInicio": "04/10/2022",
+      "ph": [
+        6,
+        5.9,
+        5.4
+      ],
+      "temperatura": [
+        22,
+        21,
+        24
+      ]
+    }
+  ]
+}
