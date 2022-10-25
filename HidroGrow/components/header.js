@@ -30,7 +30,7 @@ class Header extends HTMLElement {
                         <p class="linea">|</p>
                     </li>
                     <!--Links Iniciar Sesion/registrarse-->
-                    <li><a class="link sign-in" href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
+                    <li><a class="link sign-in" href="sign-in.html">INICIAR SESIÓN</a></li>
 
                 </ul>
 

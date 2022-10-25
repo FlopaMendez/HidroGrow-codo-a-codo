@@ -31,8 +31,8 @@ class Footer  extends HTMLElement {
               <li><a href="index.html#beneficios">Beneficios</a></li>
               <li><a href="index.html#cultivos">Cultivos</a></li>
               <li><a href="index.html#especificaciones">Especificaciones</a></li>
-              <li><a href="comprar.html" target="_blank">Compra</a></li>
-              <li><a href="sign-in.html" target="_blank">Iniciar Sesión</a></li>
+              <li><a href="comprar.html">Compra</a></li>
+              <li><a href="sign-in.html">Iniciar Sesión</a></li>
           </ul>
           <hr>
           <ul class="botones legales">
