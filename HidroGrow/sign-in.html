@@ -23,6 +23,12 @@
     <script defer src="js/index.js"></script>
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
+
+    <!--Hoja de estilo - íconos Google Fonts-->   
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -31,23 +37,85 @@
     
     <main>
 
-        <div id="login">
-            
-            <label for="login-mail">E-Mail:</label>
-            <input type="Email" class="formularioLOGIN" name="" placeholder="Dirección de E-Mail" id="login-mail">
-
-            <label for="login-pass">Contraseña:</label>
-            <input type="Password" name="" placeholder="Contraseña" id="login-pass">
-
-            <button class="comprar hide" onclick="traer(); signOut()">Iniciar sesión</button>
-
-        </div>
-        <div class="contenedorUsr">
-            <div id="contenidoUsr">
-            </div>
-            <div id="contenidoDevice">
-            </div>
-        </div>
+        <header class="encabezado">
+            <!--Logo-->
+            <img class="logo" src="statics/logo.svg" alt="">
+    
+            <nav class="navBar">
+                <!--NavBar-->
+                <ul class="botones">
+                    <!--Links secciones-->
+                    <li><a class="link" href="index.html#hola">HOLA</a></li>
+                    <li><a class="link" href="index.html#como-funciona">CÓMO FUNCIONA</a></li>
+                    <li><a class="link" href="index.html#inicio-beneficios">BENEFICIOS</a></li>
+                    <li><a class="link" href="index.html#cultivos">CULTIVOS</a></li>
+                    <li><a class="link" href="index.html#especificaciones">ESPECIFICACIONES</a></li>
+                    <li><a class="comprar" href="comprar.html">COMPRAR</a></li>
+                    <li>
+                        <p class="linea">|</p>
+                    </li>
+                    <!-- Links Iniciar Sesion/registrarse -->
+                    <li><a class="link sign-in " href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
+    
+                </ul>
+    
+            </nav>
+    
+    
+        </header>
+    
+        <main>
+            <br><br> <br><br>
+            <section class="grid-contenedor-usr">
+    
+    
+                <div class="grid-item-usr headerUsr">
+    
+    
+                    <div class="formUsr-txt">
+                        <br>
+                        Ingrese su nombre: <br>
+                        <input type="Email" name="" id="">
+    
+    
+                        <br><br>
+                        Contraseña:<br> <input type="Password" name="" id="">
+    
+                        <br><br>
+                        <button class="loginUsr-btn hide" onclick="traer()">Iniciar sesión</button>
+    
+                    </div>
+    
+    
+    
+    
+                </div>
+                <div>
+                    <div id="contenidoUsr">
+                    </div>
+                </div>
+                <div>
+                    <div id="contenidoDevice">
+                    </div>
+                </div>
+                <div >
+                    <div id="listaDispositivos">
+                    </div>
+                </div>
+              
+                    
+                   
+                    
+                   
+             
+                
+    
+    
+    
+            </section>
+    
+    
+        </main>
         
     </main>
 
