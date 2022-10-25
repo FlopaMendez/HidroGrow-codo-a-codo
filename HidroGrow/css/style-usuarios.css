@@ -32,8 +32,7 @@
     align-content: center;
     grid-row: 1 / 2;
     grid-column: 1 / span 2;
-    display:block;
-}
+ }
 
 .usuario-Nombre-txt {
     font-weight: 800;
