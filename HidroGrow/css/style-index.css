@@ -45,11 +45,13 @@ color:rgb(0, 37, 243);
     z-index: 10;
     top: 0;
     right: 0;
+
+    transition: all .3s ease;
 }
 
-.no-show{
-    display:none;
-    }
+.encabezado.hide {
+	top: -5em;
+}
 
 .logo{
     width: 5.5em;
