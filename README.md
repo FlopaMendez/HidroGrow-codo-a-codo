@@ -38,8 +38,9 @@ Ubicación y descripción breve de la animación:</br>
 </br>
 
 Comentarios sobre la entrega (opcional):</br>
-- En la carpeta /Source-Materiales están los archivos de diseño que se utilizaron previos a la maquetación y desarrollo.
-- Asimismo, adjuntamos una hoja de identidad de marca con los lineamientos principales de aplicación de logo, tipografía y colores. 
+- En la carpeta "Recursos-Identidad-Visual" están los archivos de diseño que se utilizaron previos a la maquetación y desarrollo.
+- Asimismo, adjuntamos una hoja de identidad de marca con los lineamientos principales de aplicación de logo, tipografía y colores, así como imágenes y video de producto.
+- URL Carpeta: https://github.com/FlopaMendez/HidroGrow-codo-a-codo/tree/main/Recursos-Identidad-Visual
 
 </br></br>
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
