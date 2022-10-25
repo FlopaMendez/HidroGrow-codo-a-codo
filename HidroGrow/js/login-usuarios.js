@@ -85,8 +85,10 @@ document.querySelector('.show').addEventListener('click', () => {
 
 
 
-
-
+function signOut(){
+  let estado = document.getElementsByClassName("link sign-in")
+  estado[0].innerHTML = "CERRAR SESION"
+}
 
 
 
