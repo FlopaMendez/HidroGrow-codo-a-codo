@@ -23,9 +23,9 @@ https://github.com/FlopaMendez/HidroGrow-codo-a-codo</br>
 
 </br>
 <b>API utilizada en el TPO:</b></br>
-- En la página "Iniciar sesión" / se realizó la conexión con 2 APIs externas para emular, por un lado, un listado de usuarios y por el otro, un listado de dispositivos.
-- El login no requiere usuario y contraseña. Se puede clickear directo y entrar a la página de usuario.
-- En ese sentido, para mejorar el SEO y la experiencia de navegación, si bien "sign-in.html" es el único HTML que luego incorpora el contenido utilizando JS, también modificamos la URL del navegador y se convierte en "/dashboard-usr.html" (más allá que ese HTML no existe físicamente en el repositorio)
+- En la página "Iniciar sesión" / se realizó la conexión con 2 APIs externas para emular, por un lado, un listado de usuarios y por el otro, un listado de dispositivos.</br>
+- El login no requiere usuario y contraseña. Se puede clickear directo y entrar a la página de usuario.</br>
+- Para mejorar el SEO y la experiencia de navegación, si bien "sign-in.html" es el único HTML que luego incorpora el contenido utilizando JS, también modificamos la URL del navegador y se convierte en "/dashboard-usr.html" (más allá que ese HTML no existe físicamente en el repositorio).</br>
 - API de usuarios: https://randomuser.me/api/</br>
 - API de dispositivos: https://raw.githubusercontent.com/FlopaMendez/HidroGrow-codo-a-codo/usuarios-dispositivos/HidroGrow/json/dispositivos.json</br>
 
