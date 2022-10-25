@@ -74,7 +74,7 @@ document.querySelector('.hide').addEventListener('click', () => {
   document.getElementById('login').style.display="none";
   let stateObj = { id: "100" };
   window.history.pushState(stateObj,
-    "HidroGrow - Dashboard de usuario", "/HidroGrow/dashboard-usr.html");
+    "HidroGrow - Dashboard de usuario", "/hidrogrow/dashboard-usr.html");
 })
 
 document.querySelector('.show').addEventListener('click', () => {
