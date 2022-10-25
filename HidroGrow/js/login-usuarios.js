@@ -73,10 +73,15 @@ function traer() {
 
 
 
+
 const div = document.querySelector('div')
 
 document.querySelector('.hide').addEventListener('click', () => {
   div.classList.add('div_hide')
+  let stateObj = { id: "100" };
+  window.history.pushState(stateObj,
+    "HidroGrow - Dashboard de usuario", "/HidroGrow/dashboard-usr.html");
+  
 })
 
 document.querySelector('.show').addEventListener('click', () => {
