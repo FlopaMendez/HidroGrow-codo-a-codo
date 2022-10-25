@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style-usuarios.css">
     <script src="https://kit.fontawesome.com/364c36f988.js" crossorigin="anonymous"></script>
     <script defer src="js/index.js"></script>
+    
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
 
@@ -35,37 +36,10 @@
          
     <header-component></header-component>
     
-    <main>
-
-        <header class="encabezado">
-            <!--Logo-->
-            <img class="logo" src="statics/logo.svg" alt="">
     
-            <nav class="navBar">
-                <!--NavBar-->
-                <ul class="botones">
-                    <!--Links secciones-->
-                    <li><a class="link" href="index.html#hola">HOLA</a></li>
-                    <li><a class="link" href="index.html#como-funciona">CÓMO FUNCIONA</a></li>
-                    <li><a class="link" href="index.html#inicio-beneficios">BENEFICIOS</a></li>
-                    <li><a class="link" href="index.html#cultivos">CULTIVOS</a></li>
-                    <li><a class="link" href="index.html#especificaciones">ESPECIFICACIONES</a></li>
-                    <li><a class="comprar" href="comprar.html">COMPRAR</a></li>
-                    <li>
-                        <p class="linea">|</p>
-                    </li>
-                    <!-- Links Iniciar Sesion/registrarse -->
-                    <li><a class="link sign-in " href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
-    
-                </ul>
-    
-            </nav>
-    
-    
-        </header>
     
         <main>
-            <br><br> <br><br>
+            
             <section class="grid-contenedor-usr">
     
     
@@ -82,7 +56,7 @@
                         Contraseña:<br> <input type="Password" name="" id="">
     
                         <br><br>
-                        <button class="loginUsr-btn hide" onclick="traer(); signOut()">Iniciar sesión</button>
+                        <button class="loginUsr-btn hide" onclick = "traer(), signOut()">Iniciar sesión</button>
     
                     </div>
     
@@ -104,20 +78,14 @@
                 </div>
               
                     
-                   
-                    
-                   
-             
-                
-    
-    
+
     
             </section>
     
     
         </main>
         
-    </main>
+   
 
     <footer-component></footer-component>
 
