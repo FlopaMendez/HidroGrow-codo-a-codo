@@ -20,6 +20,7 @@ API utilizada en el TPO:</br>
 - https://randomuser.me/api/</br>
 - https://raw.githubusercontent.com/FlopaMendez/HidroGrow-codo-a-codo/usuarios-dispositivos/HidroGrow/json/dispositivos.json</br>
 
+</br>
 Ubicación y descripción breve de la animación:</br>
 - Carrousel con n posiciones.</br>
 - navBar con mostrar / ocultar al hacer scroll</br>
