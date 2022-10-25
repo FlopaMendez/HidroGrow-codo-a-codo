@@ -1,34 +1,29 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
-<h1>README.md<h2></br>
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
+<h1>README.md</h1></br>
 
-<h2>COMISIÓN: #22502</br>
-Nombre del Grupo: HidroGrow</br></br>
-AUTORES: 
+<h2>COMISIÓN: #22502</h2>
+<h2>Nombre del Grupo: HidroGrow</h2>
+<h3>AUTORES:</h3> 
 - Florencia M. Mendez</br>
 - Nicolás Villamor</br>
-- Pablo Alustiza</br></h2>
+- Pablo Alustiza
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
 
-TÍTULO DEL PROYECTO:</br> <b><h2>HidroGrow - Cultivá en tu hogar.</h2></b></br>
 
-TEMÁTICA: </br>HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
+<h2>TÍTULO DEL PROYECTO:</h2> <b><h1>HidroGrow - Cultivá en tu hogar.</h1></b>
 
-LINK del TPO:</br>
+<h4>TEMÁTICA:</h4>
+HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
+
+<h4>LINK del TPO:</h4>
 https://hidrogrow.github.io/hidrogrow/
-</br>
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
-
-</br>
-LINK a carpeta de GitHub con los archivos del TPO:</br>
+<h4>LINK a carpeta de GitHub con los archivos del TPO:</h4>
 https://github.com/FlopaMendez/HidroGrow-codo-a-codo</br>
 
 </br>
 <b>API utilizada en el TPO:</b></br>
-- En la sección "Iniciar sesión" / se realizó la conexión con 2 APIs externas para emular, por un lado, un listado de usuarios y por el otro, un listado de dispositivos.
+- En la página "Iniciar sesión" / se realizó la conexión con 2 APIs externas para emular, por un lado, un listado de usuarios y por el otro, un listado de dispositivos.
 - El login no requiere usuario y contraseña. Se puede clickear directo y entrar a la página de usuario.
 - En ese sentido, para mejorar el SEO y la experiencia de navegación, si bien "sign-in.html" es el único HTML que luego incorpora el contenido utilizando JS, también modificamos la URL del navegador y se convierte en "/dashboard-usr.html" (más allá que ese HTML no existe físicamente en el repositorio)
 - API de usuarios: https://randomuser.me/api/</br>
@@ -44,11 +39,8 @@ https://github.com/FlopaMendez/HidroGrow-codo-a-codo</br>
 - En la carpeta "Recursos-Identidad-Visual" están los archivos de diseño que se utilizaron previos a la maquetación y desarrollo.
 - Asimismo, adjuntamos una hoja de identidad de marca con los lineamientos principales de aplicación de logo, tipografía y colores, así como imágenes y video de producto.
 - URL Carpeta: https://github.com/FlopaMendez/HidroGrow-codo-a-codo/tree/main/Recursos-Identidad-Visual
-
-</br></br>
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
-<h1>ANEXO</h1></br>
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
+</br>
+<h1>ANEXO</h1>
 </br>
 <b>REQUISITOS GENERALES:</b></br>
 ● Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio Web estilo One Page, el mismo deberá tener al menos 5 secciones. </br>
