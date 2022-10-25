@@ -29,23 +29,25 @@
 
 <body>
 
-    <header class="encabezado">
-
+    <header class="encabezado" id="encabezado">
         <!--Logo-->
-        <img class="logo" src="statics/logo_strech.jpg" alt="">
+        <img class="logo" src="statics/logo.svg" alt="">
 
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" id="menu">
+            <span id="menu-abrir">&#9776;</span>
+            <span id="menu-cerrar">x</span>
+        </label>
 
         <nav class="navBar">
             <!--NavBar-->
-
             <ul class="botones">
                 <!--Links secciones-->
-
-                <li><a class="link" href="index.html#hola">HOLA</a></li>
-                <li><a class="link" href="index.html#como-funciona">CÓMO FUNCIONA</a></li>
-                <li><a class="link" href="index.html#inicio-beneficios">BENEFICIOS</a></li>
-                <li><a class="link" href="index.html#cultivos">CULTIVOS</a></li>
-                <li><a class="link" href="index.html#especificaciones">ESPECIFICACIONES</a></li>
+                <li><a class="link" href="#hola">HOLA</a></li>
+                <li><a class="link" href="#como-funciona">CÓMO FUNCIONA</a></li>
+                <li><a class="link" href="#inicio-beneficios">BENEFICIOS</a></li>
+                <li><a class="link" href="#cultivos">CULTIVOS</a></li>
+                <li><a class="link" href="#especificaciones">ESPECIFICACIONES</a></li>
                 <li><a class="comprar" href="comprar.html">COMPRAR</a></li>
                 <li>
                     <p class="linea">|</p>
@@ -54,10 +56,9 @@
                 <li><a class="link sign-in" href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
 
             </ul>
+
         </nav>
-
-
-    </header>    
+    </header>   
 
     <main class="formulario">
       
@@ -126,7 +127,7 @@
             </div>
 
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary comprar">Enviar</button>
             </div>
         </form>
     </main>
