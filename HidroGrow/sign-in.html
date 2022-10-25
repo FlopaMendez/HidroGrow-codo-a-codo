@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="statics/favicon.ico" type="image/x-icon"> <!-- favicon -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <title>HidroGrow</title>
+    <!--Hoja de estilo-->
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style-usuarios.css">
+    <script src="https://kit.fontawesome.com/364c36f988.js" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+         
+    <header-component></header-component>
+    
+    <main>
+
+        <div id="login">
+            
+            <label for="login-mail">E-Mail:</label>
+            <input type="Email" class="formularioLOGIN" name="" placeholder="Dirección de E-Mail" id="login-mail">
+
+            <label for="login-pass">Contraseña:</label>
+            <input type="Password" name="" placeholder="Contraseña" id="login-pass">
+
+            <button class="comprar hide" onclick="traer(); signOut()">Iniciar sesión</button>
+
+        </div>
+        <div class="contenedorUsr">
+            <div id="contenidoUsr">
+            </div>
+            <div id="contenidoDevice">
+            </div>
+        </div>
+        
+    </main>
+
+    <footer-component></footer-component>
+
+    <script src="js/login-usuarios.js"></script>
+</body>
+
+</html>
