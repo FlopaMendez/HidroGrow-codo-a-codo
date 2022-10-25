@@ -65,11 +65,10 @@ class Footer  extends HTMLElement {
               <p>info@hidrogrow.com</p>
           </div>
           <div class="legales">
+         
+              <p class="leg1">2022 HidroGrow Company LLC</p>
 
-              <p class="leg1">The BluetoothTM word mark and logos are registered trademarks owned by the Bluetooth
-                  SIG, Inc. and any.</p>
-
-              <p class="leg2">© 2022 The Scotts Company LLC. World rights reserved</p>
+              <p class="leg2">© Todos los derechos reservados.</p>
 
           </div>
       </aside>

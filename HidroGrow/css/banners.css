@@ -1,0 +1,89 @@
+.cultivos-banner {
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    min-height: 20px;
+    background: url('../statics/img-banner.jpg');
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.cultivos-banner-solucion_nutritiva {
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    min-height: 20px;
+    background: url('../statics/img-banner-solucion-nutritiva.jpg');
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.cultivos-banner-sustratos {
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    min-height: 20px;
+    background: url('../statics/img-banner-sustratos.jpg');
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.cultivos-banner-tecnologia {
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    min-height: 20px;
+    background: url('../statics/img-banner-tecnologia.jpg');
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.cultivos-banner-tipo_cultivos {
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+    min-height: 20px;
+    background: url('../statics/img-banner-tipo_cultivo.jpg');
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.tipo-cultivos-txt {
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+
+}
+
