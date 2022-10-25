@@ -566,7 +566,12 @@ footer .enviar{
     }
 
     .section-title a{
-        margin-left:0.1em;
+        font-size:1.5em;
+        justify-content: center;
+    }
+
+    #beneficios .img-circle {
+        width:90%;
     }
 
 }
@@ -641,4 +646,7 @@ footer .enviar{
         font-size: 80%;
         padding: 0.8em;
     }
+
+    .section-title a {
+        display: flex;
 }
