@@ -11,7 +11,7 @@ AUTORES:
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
 
-TÍTULO DEL PROYECTO:</br> <b>HidroGrow</b> - Cultivá en tu hogar.</br>
+TÍTULO DEL PROYECTO:</br> <b>HidroGrow - Cultivá en tu hogar.</b></br>
 
 TEMÁTICA: </br>HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
 
