@@ -2,6 +2,10 @@
     opacity: 0;
 }
 
+#login {
+margin:20vh;
+}
+
 .contenedorUsr {
     display: grid;
     background-color: cornflowerblue;
@@ -10,16 +14,27 @@
     /* grid-template-columns: 3fr 6fr 3fr; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr 1fr 3fr; */
-    grid-template-columns: 50% 50% ;
-    grid-auto-rows: 3fr;
+    /* grid-template-rows: 2fr 1fr 3fr; */
+    /* grid-auto-rows: 1fr; */
+    grid-template-columns: 30% 70% ;
     column-gap: 10px;
     row-gap: 10px;
+    margin-top: -25vh;
+    margin-bottom: 15vh;
+}
+
+#contenidoUsr{
+    grid-column: 1/2;
+}
+
+#contenidoDevice{
+    background-color: whitesmoke;
+    padding-left: 2em;
+    grid-column: 2/2;
 }
 
 .imgUsr {
     border-radius: 50%;
-
 }
 
 .divUsr {
@@ -27,3 +42,22 @@
     text-align: left;
 }
 
+/* Celulares y pequeños dispositivos */
+@media screen and (max-width: 620px) {
+
+    .contenedorUsr {
+        grid-template-column: 100%;
+        grid-template-row: 100% 100%;
+    }
+
+    #contenidoUsr{
+        grid-column: 1 / span 2;
+        grid-row: 1/2;
+    }
+    
+    #contenidoDevice{
+        grid-column: 1/ span 2;
+        grid-row: 2/2;
+    }
+
+}
