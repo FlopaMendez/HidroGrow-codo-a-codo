@@ -57,12 +57,12 @@ function myFunction(imgs) {
 
   function RegistroCheck() {
     if (!(document.getElementById('CheckRegistrar').checked)) {
-     document.getElementById('inputPassword').style.visibility="hidden";
+     document.getElementById('inputPassword').style.display="none";
      document.getElementById('inputPassword').required = false;
      document.getElementById('CheckNewsletter').disabled = false; 
     }
     else {
-    document.getElementById('inputPassword').style.visibility="visible";
+    document.getElementById('inputPassword').style.display="block";
     document.getElementById('inputPassword').required = true;
     document.getElementById('CheckNewsletter').checked = true;  
     document.getElementById('CheckNewsletter').disabled = true;
