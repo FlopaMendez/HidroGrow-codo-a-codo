@@ -9,11 +9,16 @@ AUTORES:
 - Nicolás Villamor</br>
 - PabloAlustiza</br>
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
+
 TÍTULO DEL PROYECTO:</br> HidroGrow - Cultivá en tu hogar.</br>
 
 TEMÁTICA: </br>HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
 
-LINK del TPO:</br>
+LINK del TPO:</br></br>
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</br>
 
 </br>
 LINK a carpeta de GitHub con los archivos del TPO:</br>
