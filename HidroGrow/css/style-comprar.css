@@ -1,7 +1,8 @@
 
 .formulario{
     width: 90%;
-    padding: 10px 50px;
+    padding: 0px 50px;
+    margin: 15vh 0% 5%;
 }
 
 h1{
@@ -13,25 +14,31 @@ p{
     margin-top:revert;
 }
 
+.form-control {
+    margin-top: 6px
+}
+
+/* footer reducido */
+
+/*
+
 footer{
-    height: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: max-content;
 }
-
+  
 .leg1, .leg2, .botones.menu, .grid-item.col1 h3, .grid-item.col1 .suscripcion{
-display:none;
+    display:none;
 }
-
+    
 .grid-item.col1 img {
-    grid-row: 1/2;
+        grid-row: 1/2;
 }
-
+    
 .grid-item.col3 .icon.tel, .grid-item.col3 .icon.mail{
-    grid-row: 1/3;
-}
+        grid-row: 1/3;
+}   border-radius: 20px !important;
 
-button{  
-    background-color: rgb(0, 37, 243)  ;
-    color: whitesmoke !important;
-    padding: 5px 20px !important;
-    border-radius: 20px !important;
-}
+*/

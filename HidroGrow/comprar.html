@@ -29,18 +29,20 @@
 
 <body>
 
-    <header class="encabezado">
-
+    <header class="encabezado" id="encabezado">
         <!--Logo-->
-        <img class="logo" src="statics/logo_strech.jpg" alt="">
+        <img class="logo" src="statics/logo.svg" alt="">
 
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" id="menu">
+            <span id="menu-abrir">&#9776;</span>
+            <span id="menu-cerrar">x</span>
+        </label>
 
         <nav class="navBar">
             <!--NavBar-->
-
             <ul class="botones">
                 <!--Links secciones-->
-
                 <li><a class="link" href="index.html#hola">HOLA</a></li>
                 <li><a class="link" href="index.html#como-funciona">CÓMO FUNCIONA</a></li>
                 <li><a class="link" href="index.html#inicio-beneficios">BENEFICIOS</a></li>
@@ -54,68 +56,78 @@
                 <li><a class="link sign-in" href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
 
             </ul>
+
         </nav>
-
-
-    </header>    
+    </header>   
 
     <main class="formulario">
+      
         <div>
             <h1>Formulario de Pre-orden.</h1>
             <p>Ingrese sus datos y nos contactaremos con usted para brindar mas información para su compra.</p>
         </div>
         <!-- Formulario de pre-order | Bootstrap? -->
-        <form class="row g-3 form">
+        <form class="row g-3 needs-validation" novalidate>
+        <div class="row justify-content-evenly">
             <div class="col-md-6">
-                <label for="inputName" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Juan">
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre" required>
+            </div>        
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="inputLastName" placeholder="Apellido" required>
+            </div>
+
+       </div>
+
+        <div class="w-100"></div>
+
+        <div class="row justify-content-evenly">
+
+            <div class="col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Dirección de E-Mail" required>
             </div>
             <div class="col-md-6">
-                <label for="inputLastName" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="inputLastName" placeholder="Gómez">
-            </div>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" style="display: none;">
+            </div>     
+        </div>
+
+        <div class="col-md-6">
+
+            <input class="form-check-input" type="checkbox"  value="" id="CheckNewsletter" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Suscribirse a newsletter
+              </label>
+
+            <input class="form-check-input" type="checkbox" onclick="RegistroCheck()" value="" id="CheckRegistrar" unchecked >
+            <label class="form-check-label2" for="CheckRegistrar">
+              Registrarse   
+            </label>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="row justify-content-start">
             <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Dirección de Mail">
-            </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Ciudad</label>
-                <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>
-                        Ciudad Autonoma de Buenos Aires
-                    </option>
-                    <option>
-                        Ciudad de Córdoba
-                    </option>
-                    <option>
-                        Villa Mercedes, San Luis
-                    </option>
-                    </option>
+                <select id="inputState" class="form-select" required>
+                    <option selected disabled value="">Elegir Ciudad...</option>
+                    <option>Ciudad Autonoma de Buenos Aires</option>
+                    <option>Ciudad de Córdoba</option>
+                    <option>Villa Mercedes, San Luis</option>
                 </select>
             </div>
+            <div class="col-md-6">
+                
+                <input type="number" class="form-control" id="inputPostalCode" placeholder="Código Postal" min="0" required>
+            </div>   
 
+            <div class="w-100"></div>
+
+        </div>
             <div class="col-md-8">
-                <label for="inputProducto" class="form-label">Producto a Consultar</label>
-                <input type="text" class="form-control" id="inputProducto">
+                <textarea class="form-control"  id="floatingTextarea2" style="height: 6em" placeholder="Comentarios"></textarea>
             </div>
 
-            <div class="col-md-8">
-                <label for="inputComentario" class="form-label">Deje su Comentario</label>
-                <textarea class="form-control"  id="floatingTextarea2" style="height: 100px"></textarea>
-            </div>
-
-
-            <!-- <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
-            </div> -->
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary comprar">Enviar</button>
             </div>
         </form>
     </main>
@@ -127,11 +139,11 @@
             </h3>
             <form class="suscripcion">
                 <label for="input-mail"></label>
-                <input class="mail" type="mail" id="input-mail" placeholder="Ingrese su Mail">
+                <input class="mail" type="mail" id="input-mail" placeholder="Ingrese su email">
                 <input class="enviar" type="submit" value="ENVIAR">
             </form>
 
-            <img class="logo-footer" src="statics/logo-white.svg" height="150px" alt="logo HidroGrow">
+            <img class="logo-footer" src="statics/logo-white.svg" alt="logo HidroGrow">
             <!--Logo-->
 
         </div>
@@ -151,11 +163,11 @@
             <hr>
             <ul class="botones legales">
                 <li><a href="#">Términos y condiciones</a></li>
-                <li><a href="">Política de privacidad</a></li>
+                <li><a href="#">Política de privacidad</a></li>
             </ul>
             <hr>
             <div class="iconos-social">
-                <!--Redes sociales, imagenes  href-->
+                <!--Redes sociales, imagenes href-->
 
                 <a class="icon" href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
 
@@ -164,27 +176,30 @@
                 <a class="icon" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
 
                 <a class="icon" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                
+
 
             </div>
         </div>
 
         <aside class="grid-item col3">
             <!--aside Tel, Mail, legales-->
-            <div class="tel-mail" >
-                <a class="icon tel" href="tel:+54 11 0000 0000"><i class="fa-sharp fa-solid fa-phone"></i></a> <p>+54 11 0000 0000</p>
+            <div class="tel-mail">
+                <a class="icon tel" href="tel:+54 11 0000 0000"><i class="fa-sharp fa-solid fa-phone"></i></a>
+                <p>+54 11 0000 0000</p>
 
-                <a class="icon mail" href="mailto:info@hidrogrow.com"><i class="fa-solid fa-envelope"></i></a> <p>info@hidrogrow.com</p> 
+                <a class="icon mail" href="mailto:info@hidrogrow.com"><i class="fa-solid fa-envelope"></i></a>
+                <p>info@hidrogrow.com</p>
             </div>
-            <div class="legales" >
+            <div class="legales">
 
-                <p class="leg1">The BluetoothTM word mark and logos are registered trademarks owned by the Bluetooth SIG, Inc. and any.</p>
-                
-                <p class="leg2" >© 2022 The Scotts Company LLC. World rights reserved</p>
+                <p class="leg1">The BluetoothTM word mark and logos are registered trademarks owned by the Bluetooth
+                    SIG, Inc. and any.</p>
+
+                <p class="leg2">© 2022 The Scotts Company LLC. World rights reserved</p>
 
             </div>
         </aside>
-        
+
 
     </footer>
 
