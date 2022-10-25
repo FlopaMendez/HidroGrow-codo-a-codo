@@ -37,7 +37,7 @@ https://github.com/FlopaMendez/HidroGrow-codo-a-codo</br>
 
 <b>Comentarios sobre la entrega (opcional):</b></br>
 - En la carpeta "Recursos-Identidad-Visual" están los archivos de diseño que se utilizaron previos a la maquetación y desarrollo.
-- Asimismo, adjuntamos una hoja de identidad de marca con los lineamientos principales de aplicación de logo, tipografía y colores, así como imágenes y video de producto.
+- Asimismo, adjuntamos una hoja de identidad de marca con los lineamientos principales de aplicación de logo, tipografía y colores; así como imágenes y video de producto.
 - URL Carpeta: https://github.com/FlopaMendez/HidroGrow-codo-a-codo/tree/main/Recursos-Identidad-Visual
 </br>
 <h1>ANEXO</h1>
