@@ -1,6 +1,6 @@
 COMISIÓN: #22502</br>
 Nombre del Grupo: HidroGrow</br></br>
-Integrantes: 
+INTEGRANTES: 
 - Florencia M. Mendez</br>
 - Nicolás Villamor</br>
 - PabloAlustiza</br>
