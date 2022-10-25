@@ -142,7 +142,7 @@ color:rgb(0, 37, 243);
 
 .carrusel .articulos {
     width: calc(100%/2 - 2em);
-    height:60vh;
+    height: 100%;
     display: grid;
     column-gap: 10px;
     grid-template-columns: 20% 25% 55%;
@@ -158,13 +158,12 @@ color:rgb(0, 37, 243);
 }
 
 .grid-item.titulo{
-    
     font-size: 7vmax;
     font-weight:800;
     color: rgb(53, 161, 57);
     line-height :1em;
     margin: 0; 
-
+    grid-row:1/3;
 }
 
 .grid-item.parrafo{
@@ -172,6 +171,7 @@ color:rgb(0, 37, 243);
     margin-bottom:0;
     align-self: center;
     font-size: 1.5vmax;
+    grid-row:2/3;
 }
 
 .grid-item.comprar{
@@ -185,20 +185,21 @@ color:rgb(0, 37, 243);
     justify-content: center;
     align-items: center;
     grid-column: 1/2;
+    grid-row: 3/3;
 }
 
 .grid-item.imagen{
-   grid-column: 3/4;
-   grid-row: 1/4;
-   width:45vw;
+   grid-column: 3/3;
+   grid-row: 1 / span 3;
+   width:50vw;
    align-self: center;
 }
 
 .grid-item.iframe{
-    grid-column: 3/4;
-    grid-row: 1/4;
-    width: 94.3%;
-    height: 27vw;
+    grid-column: 3/3;
+    grid-row: 1 / span 3;
+    width: 100%;
+    height: 100%;
     align-self: center;
  }
  
@@ -513,24 +514,29 @@ footer .enviar{
 
     .carrusel .articulos {
         grid-template-columns: 100%;
-        grid-template-rows: 100%;
+        grid-template-rows: 15% 85%;
     }
     
     .grid-item.imagen {
         grid-column: 1/2;
-        width: 100%;    
-    }
+        grid-row: 2/2;
+        width: 100%;
+        justify-self: center;  
+   }
 
     .grid-item.iframe{
         height: 66%;
         grid-column: 1/1;
+        grid-row: 2/2;
     }
 
-    /* hamburguesa*/
-
-
-
-    .articulos, .grid-item.titulo, .grid-item.parrafo, .grid-item.comprar{
+    .grid-item.titulo { 
+        grid-row: 1/2;
+        font-size: 2em;
+        align-self: center;
+    }
+    
+    .articulos,  .grid-item.parrafo, .grid-item.comprar{
         display: none;
     }
  
