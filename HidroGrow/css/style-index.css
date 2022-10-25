@@ -620,9 +620,9 @@ footer .enviar{
         display: block;
     }
 
-    .encabezado{
-        /* height: 4em ; */
-    }
+    /* .encabezado{
+        height: 4em ; 
+    }*/
 
     .encabezado .navBar {
         position: absolute; 
@@ -643,5 +643,5 @@ footer .enviar{
         text-align: center;
         font-size: 80%;
         padding: 0.8em;
-
     }
+}
