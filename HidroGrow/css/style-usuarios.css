@@ -2,28 +2,138 @@
     opacity: 0;
 }
 
-.contenedorUsr {
+.grid-contenedor-usr {
+
     display: grid;
-    background-color: cornflowerblue;
-    /* grid-template-columns: 100px 100px 100px */
-    /* grid-template-columns: 25% 50% 25%; */
-    /* grid-template-columns: 3fr 6fr 3fr; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr 1fr 3fr; */
-    grid-template-columns: 50% 50% ;
-    grid-auto-rows: 3fr;
-    column-gap: 10px;
-    row-gap: 10px;
-}
+    grid-template: 200px 1fr 240px / 400px 0.6fr;
+    grid-template-areas: "headerUsr headerUsr ""leftUsr contenidoUsr""footerUsr footerUsr";
+   grid-gap: 20px;
+   height: 100vh;
+   justify-content: center;
+   align-content: center;
+   
 
-.imgUsr {
-    border-radius: 50%;
 
 }
 
-.divUsr {
-    padding: 20px;
-    text-align: left;
+  .grid-item-usr {
+    background-color: #fafafa;
+    padding: 30px;
+    color: black;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 20%);
+ 
+
+  }
+
+.headerUsr {
+    grid-area: headerUsr;
+    text-align: center;  
+    align-content: center;
 }
+
+.formUsr-txt {
+    font-weight: 800;
+    font-size: 1.8vh;
+    border: 2px solid transparent;
+
+}
+
+.usuario-Nombre-txt {
+    font-weight: 800;
+    font-size: 6vh;
+    margin-top: 0;
+
+}
+
+.dispositivo-Titulo-txt {
+    font-weight: 800;
+    font-size: 6vh;
+    margin-top: 0;
+    border: 2px solid transparent;
+
+}
+
+.dispositivo-Serial-txt {
+    font-weight: 400;
+    font-size: 2.2vh;
+    margin-top: 200;
+    border: 2px solid transparent;
+
+}
+
+.dispositivo-Temperatura-txt {
+    font-weight: 600;
+    font-size: 7.8vh;
+    margin-top: 100;
+    border: 2px solid transparent;
+
+}
+
+
+.dispositivo-FechaInicio-txt {
+    font-weight: 600;
+    font-size: 3vh;
+    margin-top: 0;
+    border: 2px solid transparent;
+
+}
+
+.leftUsr{
+    grid-area: leftUsr;
+}
+
+.contenidoUsr {
+
+grid-area: contenidoUsr;    
+}
+
+.footerUsr {
+    grid-area: footerUsr;
+    height: 10vh;
+
+}
+
+
+.loginUsr-btn{  
+    background-color: #0045f5;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.loginUsr-btn:hover{
+    background-color: white;
+    color: #0045f5;
+    border: 2px solid #0045f5;
+    font-weight: 800;
+}
+
+
+.material-icons.md-18 { 
+    font-size: 18px; 
+
+
+
+}
+.material-icons.md-24 { font-size: 24px; 
+
+
+    vertical-align: middle;}
+.material-icons.md-36 { font-size: 36px; 
+
+    vertical-align: bottom;
+
+
+}
+.material-icons.md-48 { font-size: 48px; 
+    vertical-align:middle;}
+
+
+
+
+
+
+
 

@@ -9,12 +9,20 @@ function traer() {
     .then(data => {
       contenidoUsr.innerHTML =
         `
+        <div class="grid-item-usr leftUsr ">
                         <div class="divUsr">
-                        <img class="imgUsr" src="${data.results[0].picture.large}"  >
-                        <p>Nombre: ${data.results[0].name.first}<br>
-                        Email: ${data.results[0].email}</p>
-                        <br>
+                        <p class=""><img class="img-circle" src="${data.results[0].picture.large}"></p>
+                        <span class="usuario-Nombre-txt">Hola, ${data.results[0].name.first}</span><br>
+                        
+                        <span class="material-icons md-24">email</span>
+                        <span class="dispositivo-Serial-txt">
+                        
+                        ${data.results[0].email}</span>
+                        </p>
+                       
                         </div>
+                    
+
                         `
     }),
     fetch('https://raw.githubusercontent.com/FlopaMendez/HidroGrow-codo-a-codo/usuarios-dispositivos/HidroGrow/json/dispositivos.json')
@@ -24,14 +32,40 @@ function traer() {
 
         contenidoDevice.innerHTML =
           `
-                    <p>UNIDADES DE CULTIVO</p>
-                <h1 >${data2.dispositivos[0].name} </h1>
-                <h2>Temperatura: ${data2.dispositivos[0].temperatura[0]}°C</h2>
-                <h2>PH: ${data2.dispositivos[0].ph[0]}</h2>
-                <p>Número de serie: ${data2.dispositivos[0].serialNumber} </p>
-                <p>Fecha inicio del cultivo: ${data2.dispositivos[0].fechaInicio} </p>
+          <div class="grid-item-usr contenidoUsr">
+                    <span class="dispositivo-Serial-txt">Número de serie: ${data2.dispositivos[0].serialNumber} </span>
+                    <br>
+                <span class="dispositivo-Titulo-txt">${data2.dispositivos[0].name} </span>
+                <p>
+                <span class="dispositivo-FechaInicio-txt">Fecha inicio del cultivo: ${data2.dispositivos[0].fechaInicio} </span>
+                </p>
+               
+                <p class="dispositivo-Temperatura-txt">
+               
+                <span class="material-icons md-48">device_thermostat</span>
+                ${data2.dispositivos[0].temperatura[0]}°C 
+            
+                <span class="material-icons md-48">vaccines</span> ${data2.dispositivos[0].ph[0]}ph</span>
+                
+                </div>
                         `
-      })
+                        
+      }),
+
+      listaDispositivos.innerHTML =
+                        `
+                        <div class="grid-item-usr ">
+                        <span class="dispositivo-Serial-txt">  <span class="material-icons md-48">settings</span> Agregar nuevo dispositivo</span>
+                        
+                                  
+                        </div>
+              
+                        
+                              
+                                      `
+
+
+     
 
 
 
