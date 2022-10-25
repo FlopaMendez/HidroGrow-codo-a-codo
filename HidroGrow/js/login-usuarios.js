@@ -70,14 +70,16 @@ function traer() {
 const div = document.querySelector('div')
 
 document.querySelector('.hide').addEventListener('click', () => {
-  div.classList.add('div_hide')
+  /*div.classList.add('div_hide')*/
+  document.getElementById('login').style.display="none";
   let stateObj = { id: "100" };
   window.history.pushState(stateObj,
     "HidroGrow - Dashboard de usuario", "/HidroGrow/dashboard-usr.html");
 })
 
 document.querySelector('.show').addEventListener('click', () => {
-  div.classList.remove('div_hide')
+  /*div.classList.remove('div_hide')*/
+  document.getElementById('login').style.display="block";
 })
 
 

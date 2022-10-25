@@ -2,7 +2,7 @@
     opacity: 0;
 }
 
-.grid-contenedor-usr{
+#usuario{
     grid-template-rows: 75% 25%;
     grid-template-columns: 50% 50%;
 }
@@ -14,7 +14,7 @@
    justify-content: center;
    align-content: center;
    padding: 0px 50px;
-   margin: 15vh 0% 5%;
+   margin: 20vh 0% 5%;
 
 }
 
@@ -23,15 +23,20 @@
     padding: 30px;
     color: black;
     box-shadow: 0 0 0.5rem rgb(83 78 76 / 20%);
-    grid-column: 1/2;
-    grid-row: 2/2; 
   }
 
-.headerUsr {
+#login {
     text-align: center;  
     align-content: center;
-    grid-row: 1 / 2;
-    grid-column: 1 / span 2;
+    background-color: #fafafa;
+    padding: 30px;
+    margin: 20vh 0% 5%;
+    color: black;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 20%);
+ }
+
+ #login input {
+    width: 30vw;
  }
 
 .usuario-Nombre-txt {
@@ -72,20 +77,10 @@
     border: 2px solid transparent;
 }
 
-.leftUsr{
+#contenidoUsr {
     grid-column: 1/2;
-    grid-row: 1/2;  
-}
-
-.contenidoUsr {
-    grid-column: 2/2;
-    grid-row: 1/2;  
+    grid-row: 1/ 1;  
  }
-
-#contenidoUsr{
-    grid-column: 1/2;
-    grid-row: 1/2;  
-}
 
 #contenidoDevice{
     grid-column: 2/2;
@@ -126,33 +121,33 @@
 .material-icons.md-36 { font-size: 36px; 
 
     vertical-align: bottom;
-
-
 }
 .material-icons.md-48 { font-size: 48px; 
     vertical-align:middle;
 }
 
 @media screen and (max-width: 620px) {
-    .grid-contenedor-usr{
-    grid-template-rows: 40% 46% 14%;
-    grid-template-columns: 100%;
-    padding:10px;
+    .grid-contenedor-usr {
+    padding:10px; 
     }
-    
+
+    #usuario{
+    grid-template-rows: 35% 50% 15%;
+    grid-template-columns: 100%; 
+    }
+
+    #contenidoUsr {
+        grid-column: 1 / 1;
+    }
+  
     #contenidoDevice {
-        grid-column:1/1;
+        grid-column: 1 / 1;
         grid-row: 2/3;  
      }
 
     #listaDispositivos{
         grid-column:1/1;
         grid-row: 3/3;   
-    }
-
-    #leftUsr{
-        grid-column:1/1;
-        grid-row: 1/3;  
     }
 
 }

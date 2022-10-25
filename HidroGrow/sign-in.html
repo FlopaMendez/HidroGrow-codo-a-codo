@@ -38,26 +38,21 @@
 
         <main>
             
-            <section class="grid-contenedor-usr">
+            <div id="login" class="">
+                <input type="email" name="" id="login-mail" placeholder="Dirección E-Mail" >
+                <br></br>
+                <input type="password" name="" id="login-pass" placeholder="Contraseña">
+                <br></br>
+                <button class="loginUsr-btn hide" onclick = "traer(), signOut()">Iniciar sesión</button>
+            </div>
 
-                <div id="login" class="grid-item-usr headerUsr">
-                    
-                        <input type="email" name="" id="login-mail" placeholder="Dirección E-Mail" >
-
-                        <input type="password" name="" id="login-pass" placeholder="Contraseña">
-                        <br></br>
-                        <button class="loginUsr-btn hide" onclick = "traer(), signOut()">Iniciar sesión</button>
-                    
-                </div>
-
-                    <div id="contenidoUsr">
-                    </div>
-                    <div id="contenidoDevice">
-                    </div>
-                    <div id="listaDispositivos">
-                    </div>     
+            <div id="usuario" class="grid-contenedor-usr headerUsr">
+             
+                <div id="contenidoUsr"></div>
+                <div id="contenidoDevice"></div>
+                <div id="listaDispositivos"></div>     
         
-            </section>  
+                </div>  
     
         </main>
         
