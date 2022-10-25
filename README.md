@@ -16,7 +16,7 @@ TÍTULO DEL PROYECTO:</br> HidroGrow - Cultivá en tu hogar.</br>
 TEMÁTICA: </br>HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
 
 LINK del TPO:</br>
-https://hidrogrow.github.io/HidroGrow/
+https://hidrogrow.github.io/hidrogrow/
 </br>
 
 
