@@ -25,9 +25,15 @@
 
 <body>
 
-    <header class="encabezado">
+    <header class="encabezado" id="encabezado">
         <!--Logo-->
         <img class="logo" src="statics/logo.svg" alt="">
+
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" id="menu">
+            <span id="menu-abrir">&#9776;</span>
+            <span id="menu-cerrar">x</span>
+        </label>
 
         <nav class="navBar">
             <!--NavBar-->
@@ -42,15 +48,13 @@
                 <li>
                     <p class="linea">|</p>
                 </li>
-                <!-- Links Iniciar Sesion/registrarse -->
-                <li><a class="link sign-in " href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
+                <!--Links Iniciar Sesion/registrarse-->
+                <li><a class="link sign-in" href="sign-in.html" target="_blank">INICIAR SESIÓN</a></li>
 
             </ul>
 
         </nav>
-
-
-    </header>
+    </header> 
 
     <main>
 
@@ -93,7 +97,7 @@
                 <input class="enviar" type="submit" value="ENVIAR">
             </form>
 
-            <img class="logo-footer" src="statics/logo-white.svg" height="120px" alt="logo HidroGrow">
+            <img class="logo-footer" src="statics/logo-white.svg" alt="logo HidroGrow">
             <!--Logo-->
 
         </div>
