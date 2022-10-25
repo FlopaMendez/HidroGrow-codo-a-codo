@@ -1,5 +1,36 @@
-El TPO deberá cumplir con los siguientes requisitos:
+COMISIÓN: #22502
+Nombre del Grupo: HidroGrow
+Integrantes: 
+- Florencia M. Mendez
+- Nicolás Villamor
+- PabloAlustiza
 
+TÍTULO DEL PROYECTO: HidroGrow - Cultivá en tu hogar.
+
+Temática: HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.
+
+Link del TPO:
+
+Link a carpeta de GitHub o similar con los archivos del TPO:
+https://github.com/FlopaMendez/HidroGrow-codo-a-codo
+
+API utilizada en el TPO:
+- https://randomuser.me/api/
+- https://raw.githubusercontent.com/FlopaMendez/HidroGrow-codo-a-codo/usuarios-dispositivos/HidroGrow/json/dispositivos.json
+
+Ubicación y descripción breve de la animación:
+- Carrousel con n posiciones.
+- navBar con mostrar / ocultar al hacer scroll
+
+Comentarios sobre la entrega (opcional):
+
+
+
+////////////////////////////////////////////////////////////////////////
+ANEXO
+////////////////////////////////////////////////////////////////////////
+
+REQUISITOS GENERALES:
 ● Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio Web estilo One Page, el mismo deberá tener al menos 5 secciones. </br>
 ● Utilizar etiquetas semánticas para estructurar el sitio. </br>
 ● Contener un formulario de contacto con validación realizada mediante Javascript. Opcional: el formulario podrá enviar un email utilizando algún servicio externo destinado para ello. </br>
