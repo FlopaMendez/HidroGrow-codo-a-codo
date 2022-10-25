@@ -18,8 +18,15 @@ function traer() {
                         <span class="dispositivo-Serial-txt">
                         
                         ${data.results[0].email}</span>
+                        
                         </p>
-                       
+                        <p>
+                        <span class="material-icons md-24">location_city</span>
+                        <span class="dispositivo-Serial-txt">
+                        
+                        ${data.results[0].location.city}, ${data.results[0].location.country} </span>
+                        </p>
+                        
                         </div>
                     
 
@@ -55,11 +62,10 @@ function traer() {
       listaDispositivos.innerHTML =
                         `
                         <div class="grid-item-usr ">
-                        <span class="dispositivo-Serial-txt">  <span class="material-icons md-48">settings</span> Agregar nuevo dispositivo</span>
-                        
-                                  
+                        <span class="dispositivo-Serial-txt">  <span class="material-icons md-48">notifications</span> Configurar alertas</span>
+                       
                         </div>
-              
+                        
                         
                               
                         `
