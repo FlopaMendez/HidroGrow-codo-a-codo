@@ -5,7 +5,7 @@ AUTORES:
 - Nicolás Villamor</br>
 - PabloAlustiza</br>
 
-TÍTULO DEL PROYECTO: HidroGrow - Cultivá en tu hogar.</br>
+TÍTULO DEL PROYECTO:</br> HidroGrow - Cultivá en tu hogar.</br>
 
 Temática: HidroGrow es un asistente personal para maximizar los cultivos hidropónicos en el hogar con monitoreo en la nube y alertas configurables.</br>
 
